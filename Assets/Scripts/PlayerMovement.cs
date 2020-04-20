@@ -116,11 +116,19 @@ public class PlayerMovement : MonoBehaviour
 
 	void shoot() {
 
+		rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
 		Quaternion rotation = Quaternion.Euler(arrowRotation);
 		GameObject arrow = Instantiate(arrowPrefab, rb.transform.position, rotation);
+		
+		Physics2D.IgnoreCollision(arrow.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
+
 		Rigidbody2D arrowRB = arrow.GetComponent<Rigidbody2D>();
 		arrowRB.AddForce(arrowRB.transform.up * arrowForce, ForceMode2D.Impulse);
-		
+
+		rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+
 	}
 
 
@@ -143,6 +151,15 @@ public class PlayerMovement : MonoBehaviour
 			readyToCarryFire = false;
 		}
 
+	}
+
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.gameObject.tag.Equals("arrow"))
+		{
+
+			Physics2D.IgnoreCollision(collision.gameObject.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
+		}
 	}
 
 

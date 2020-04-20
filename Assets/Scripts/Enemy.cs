@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-
+        Debug.Log(gameObject.GetComponent<Rigidbody2D>().velocity.x.ToString());
 
 
     }

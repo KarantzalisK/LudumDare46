@@ -22,47 +22,40 @@ public class AnimationController : MonoBehaviour
     void Update()
     {
 
-        currentPosition = rb.position;
+        
+        currentPosition = transform.position;
+
         Vector2 direction = previousPosition - currentPosition;
-        if (direction.x < 0){
+        if (direction.normalized.x < 0){
             sb.sprite = LEFT;
-            if (flip){
+            
                 sb.flipX = false;
-                directionDetect();
-            }
-        }if (direction.x > 0){
+            
+        }if (direction.normalized.x > 0){
             sb.sprite = RIGHT;
-            if (flip==false)
-            {
-                sb.flipX = true;
-                directionDetect();
-
-            }
+           
+            sb.flipX = true;
+            
         }
-        if (direction.y < 0){
-            sb.sprite = DOWN;
-           if (gameObject.GetComponentInChildren<SpriteRenderer>().flipY == true)
-            {
-                gameObject.GetComponentInChildren<SpriteRenderer>().flipY = false;
-            }
-            directionDetect();
-
-
-        }
-        if (direction.y > 0){
+        if (direction.y < 0)
+        {
             sb.sprite = UP;
-            gameObject.GetComponentInChildren<SpriteRenderer>().flipY = true;
-            directionDetect();
+            
+            //if (gameObject.GetComponentInChildren<SpriteRenderer>().flipY == true)
+            //{
+            //    gameObject.GetComponentInChildren<SpriteRenderer>().flipY = false;
+            //}
 
         }
+        if (direction.y > 0)
+        {
+            sb.sprite = DOWN;
+            //gameObject.GetComponentInChildren<SpriteRenderer>().flipY = true;
+
+        }
+        previousPosition = transform.position;
 
     }
-    IEnumerator directionDetect() {
-
-      
-        yield return new WaitForSeconds(0.2f);
-        previousPosition = rb.position;
-
-    }
+   
 
 }
