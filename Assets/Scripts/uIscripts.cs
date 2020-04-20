@@ -16,13 +16,18 @@ public class uIscripts : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && Time.timeScale == 1)
+        if (Input.GetKeyDown(KeyCode.Escape) && Time.timeScale == 1 )
         {
-            Time.timeScale = 0;
             pauseMenu.SetActive(true);
 
         }
-      
+        if (pauseMenu.activeSelf)
+        {
+            Time.timeScale = 0;
+
+        }
+        else Time.timeScale = 1;
+
     }
     public void LoadingScenes(string sceneName)
     {
@@ -32,10 +37,7 @@ public class uIscripts : MonoBehaviour
     {
         Application.Quit();
     }
-    public void unPauseit()
-    {
-        Time.timeScale = 1;
-    }
+    
 
     
 }
