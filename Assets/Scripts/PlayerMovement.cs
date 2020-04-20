@@ -10,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     public GameObject positionSetObj;
 	public float arrowForce = 3f;
     public Text txtInformative;
-    private string infoOfreloading= "Reloading...";
 
 	Vector3 arrowRotation;
 
@@ -20,36 +19,30 @@ public class PlayerMovement : MonoBehaviour
 	Vector2 movement;
 
 	public GameObject arrowPrefab;
-    bool textCountdown=false;
 	bool carryFire=false;
 	bool readyToCarryFire=false;
+
+	bool reloading = false;
+	public float reloadTime = 0.25f; 
+
+
 	// Start is called before the first frame update
 	void Start()
     {
 		rb = GetComponent<Rigidbody2D>();
-        //sr = GetComponent<SpriteRenderer>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer = timer + Time.fixedDeltaTime;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (textCountdown)
-        {
-            txtInformative.text = infoOfreloading + (2 - timer).ToString();
-            if (timer >= 2f)
-            {
-                txtInformative.text = "";
-            }
-        }
-        if ((Input.GetButtonDown("Fire1") || Input.GetKey(KeyCode.Space) )&& !carryFire && timer>=2f )
+
+
+        if (Input.GetButtonDown("Fire1") && !carryFire && !reloading)
 		{
-			shoot();
-            timer = 0f;
-            textCountdown = true;
+			StartCoroutine("shootCountdown");
 		}
 
 		if (readyToCarryFire && Input.GetKeyDown(KeyCode.Space)) {
@@ -72,27 +65,7 @@ public class PlayerMovement : MonoBehaviour
 	{
 		rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
 
-		//if (movement.x > 0.01f)
-		//{
-		//	arrowRotation = new Vector3(0f, 0f, 270f);
-		//	//sr.sprite = spriteRight;
 
-		//}
-		//else if (movement.x < -0.01f)
-		//{
-		//	arrowRotation = new Vector3(0f, 0f, 90f);
-		//	//sr.sprite = spriteLeft;
-		//}
-		//else if (movement.y > 0.01f)
-		//{
-		//	arrowRotation = new Vector3(0f, 0f, 0f);
-		//	//sr.sprite = spriteUp;
-		//}
-		//else if (movement.y < -0.01f)
-		//{
-		//	arrowRotation = new Vector3(0f, 0f, 180f);
-		//	//sr.sprite = spriteDown;
-		//}
 
 
 		if (movement.y > 0.01f && movement.x == 0f)
@@ -200,6 +173,16 @@ public class PlayerMovement : MonoBehaviour
 		////carriedObject.gameObject.rigidbody.isKinematic = false;
 		//carriedObject.gameObject.GetComponent<Rigidbody>().useGravity = true;
 		//carriedObject = null;
+	}
+
+
+	IEnumerator shootCountdown()
+	{
+		shoot();
+		reloading = true;
+		yield return new WaitForSeconds(reloadTime);
+		reloading = false;
+
 	}
 
 }

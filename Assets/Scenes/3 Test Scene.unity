@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 5724983}
   - component: {fileID: 5724984}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 20012588}
   - component: {fileID: 20012589}
   m_Layer: 0
-  m_Name: cracks9
+  m_Name: rogmes (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 21233143}
   - component: {fileID: 21233144}
   m_Layer: 0
-  m_Name: cracks5
+  m_Name: rogmes (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -547,11 +547,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35856261}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.370258, y: -0.17468996, z: -1.53}
+  m_LocalPosition: {x: 3.370258, y: -0.17469, z: -1.53}
   m_LocalScale: {x: 1.4500108, y: 1.3979813, z: 1}
   m_Children: []
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 1
+  m_Father: {fileID: 1238340032}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &35856263
 SpriteRenderer:
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 39667920}
   - component: {fileID: 39667921}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -696,7 +696,7 @@ GameObject:
   - component: {fileID: 42169275}
   - component: {fileID: 42169276}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 45463746}
   - component: {fileID: 45463747}
   m_Layer: 0
-  m_Name: cracks10
+  m_Name: rogmes (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 70030028}
   - component: {fileID: 70030029}
   m_Layer: 0
-  m_Name: cracks5
+  m_Name: rogmes (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 76957460}
   - component: {fileID: 76957461}
   m_Layer: 0
-  m_Name: cracks11
+  m_Name: rogmes (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1105,7 +1105,7 @@ GameObject:
   - component: {fileID: 92150490}
   - component: {fileID: 92150491}
   m_Layer: 0
-  m_Name: cracks2
+  m_Name: rogmes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 114205479}
   - component: {fileID: 114205480}
   m_Layer: 0
-  m_Name: noColoredBricks3
+  m_Name: toublaAxroma (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1430,7 +1430,7 @@ GameObject:
   - component: {fileID: 115875349}
   - component: {fileID: 115875350}
   m_Layer: 0
-  m_Name: cracks7
+  m_Name: rogmes (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1511,7 +1511,7 @@ GameObject:
   - component: {fileID: 123323059}
   - component: {fileID: 123323060}
   m_Layer: 0
-  m_Name: rock3
+  m_Name: petresKaiarwmata (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1673,7 +1673,7 @@ GameObject:
   - component: {fileID: 135345102}
   - component: {fileID: 135345103}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,7 +1754,7 @@ GameObject:
   - component: {fileID: 149818915}
   - component: {fileID: 149818916}
   m_Layer: 0
-  m_Name: cracks2
+  m_Name: rogmes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1835,7 +1835,7 @@ GameObject:
   - component: {fileID: 173674892}
   - component: {fileID: 173674893}
   m_Layer: 0
-  m_Name: cracks3
+  m_Name: rogmes (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1960,10 +1960,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1988,7 +1988,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 30.35
+  m_fontSize: 30.65
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2029,7 +2029,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 177371067}
-    characterCount: 5
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -2231,7 +2231,7 @@ GameObject:
   - component: {fileID: 231487616}
   - component: {fileID: 231487617}
   m_Layer: 0
-  m_Name: cracks7
+  m_Name: rogmes (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2420,7 +2420,7 @@ GameObject:
   - component: {fileID: 238240566}
   - component: {fileID: 238240567}
   m_Layer: 0
-  m_Name: cracks13
+  m_Name: rogmes (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2717,8 +2717,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -121.192}
-  m_SizeDelta: {x: 291.91, y: 50}
+  m_AnchoredPosition: {x: 515, y: -55}
+  m_SizeDelta: {x: 291.91003, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &262762059
 MonoBehaviour:
@@ -2874,14 +2874,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 738567791}
+  - {fileID: 456692607}
   m_Father: {fileID: 346594991}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.78, y: 0.05}
-  m_AnchorMax: {x: 0.9, y: 0.11}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -160, y: 30}
+  m_SizeDelta: {x: 320, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &282043481
 MonoBehaviour:
@@ -2903,7 +2903,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.4627451}
+    m_NormalColor: {r: 0.5849056, g: 0.3448736, b: 0.3448736, a: 1}
     m_HighlightedColor: {r: 0.7882353, g: 0.34509805, b: 0.34509805, a: 1}
     m_PressedColor: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0.62352943}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2922,7 +2922,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 282043482}
+  m_TargetGraphic: {fileID: 874388871}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2934,7 +2934,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MainScene
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &282043482
@@ -2950,12 +2950,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e302d1c437caa641a3edc2b3ede72ca, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2984,7 +2984,7 @@ GameObject:
   - component: {fileID: 282493189}
   - component: {fileID: 282493190}
   m_Layer: 0
-  m_Name: rock16
+  m_Name: petresKaiarwmata (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3147,7 +3147,7 @@ GameObject:
   - component: {fileID: 287783849}
   - component: {fileID: 287783850}
   m_Layer: 0
-  m_Name: rock13
+  m_Name: petresKaiarwmata (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3282,7 +3282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &306137968
 MonoBehaviour:
@@ -3309,7 +3309,7 @@ GameObject:
   - component: {fileID: 312437893}
   - component: {fileID: 312437894}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3390,7 +3390,7 @@ GameObject:
   - component: {fileID: 312789268}
   - component: {fileID: 312789269}
   m_Layer: 0
-  m_Name: cracks3
+  m_Name: rogmes (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3471,7 +3471,7 @@ GameObject:
   - component: {fileID: 323995001}
   - component: {fileID: 323995002}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3552,7 +3552,7 @@ GameObject:
   - component: {fileID: 326992470}
   - component: {fileID: 326992471}
   m_Layer: 0
-  m_Name: rock8
+  m_Name: petresKaiarwmata (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3633,7 +3633,7 @@ GameObject:
   - component: {fileID: 332775502}
   - component: {fileID: 332775503}
   m_Layer: 0
-  m_Name: noColoredBricks3
+  m_Name: toublaAxroma (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3714,7 +3714,7 @@ GameObject:
   - component: {fileID: 340267843}
   - component: {fileID: 340267844}
   m_Layer: 0
-  m_Name: cracks5
+  m_Name: rogmes (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3795,7 +3795,7 @@ GameObject:
   - component: {fileID: 343485289}
   - component: {fileID: 343485290}
   m_Layer: 0
-  m_Name: cracks
+  m_Name: rogmes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3896,7 +3896,7 @@ RectTransform:
   m_Children:
   - {fileID: 282043480}
   m_Father: {fileID: 922958803}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3950,7 +3950,7 @@ GameObject:
   - component: {fileID: 349998418}
   - component: {fileID: 349998419}
   m_Layer: 0
-  m_Name: noColoredBricks4
+  m_Name: toublaAxroma (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4077,8 +4077,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4103,7 +4103,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 30.35
+  m_fontSize: 30.65
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4348,7 +4348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 376374769}
   m_Layer: 0
-  m_Name: Mossaic Groups4
+  m_Name: AnatrixiastikaMosaika (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4409,7 +4409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -483.30798}
+  m_AnchoredPosition: {x: 515, y: -373.1}
   m_SizeDelta: {x: 160, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &389320637
@@ -4432,7 +4432,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.4627451}
+    m_NormalColor: {r: 0.5849056, g: 0.3448736, b: 0.3448736, a: 1}
     m_HighlightedColor: {r: 0.7882353, g: 0.34509805, b: 0.34509805, a: 1}
     m_PressedColor: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0.62352943}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -4479,12 +4479,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e302d1c437caa641a3edc2b3ede72ca, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4513,7 +4513,7 @@ GameObject:
   - component: {fileID: 401727940}
   - component: {fileID: 401727941}
   m_Layer: 0
-  m_Name: cracks6
+  m_Name: rogmes (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4594,7 +4594,7 @@ GameObject:
   - component: {fileID: 408473529}
   - component: {fileID: 408473530}
   m_Layer: 0
-  m_Name: rock10
+  m_Name: petresKaiarwmata (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4675,7 +4675,7 @@ GameObject:
   - component: {fileID: 415478036}
   - component: {fileID: 415478037}
   m_Layer: 0
-  m_Name: cracks13
+  m_Name: rogmes (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4755,7 +4755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 426945494}
   m_Layer: 0
-  m_Name: Bloody Stains Group4
+  m_Name: Bloody Stains (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4777,8 +4777,8 @@ Transform:
   - {fileID: 1219567089}
   - {fileID: 1306170595}
   - {fileID: 1819698500}
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 8
+  m_Father: {fileID: 1256208069}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.625}
 --- !u!1 &439309976
 GameObject:
@@ -4791,7 +4791,7 @@ GameObject:
   - component: {fileID: 439309977}
   - component: {fileID: 439309978}
   m_Layer: 0
-  m_Name: cracks4
+  m_Name: rogmes (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4951,7 +4951,7 @@ GameObject:
   - component: {fileID: 450597508}
   - component: {fileID: 450597509}
   m_Layer: 0
-  m_Name: rock5
+  m_Name: petresKaiarwmata (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5027,6 +5027,83 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7513472395723443322}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &456692606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456692607}
+  - component: {fileID: 456692609}
+  - component: {fileID: 456692608}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &456692607
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456692606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 282043480}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &456692608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456692606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 49
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 57
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Back
+--- !u!222 &456692609
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456692606}
+  m_CullTransparentMesh: 0
 --- !u!1 &470493442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5055,8 +5132,8 @@ Transform:
   m_LocalPosition: {x: -5.355711, y: 1.9539598, z: 0}
   m_LocalScale: {x: 1.591947, y: 1.4772537, z: 1}
   m_Children: []
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 3
+  m_Father: {fileID: 1238340032}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &470493444
 SpriteRenderer:
@@ -5120,7 +5197,7 @@ GameObject:
   - component: {fileID: 475215505}
   - component: {fileID: 475215506}
   m_Layer: 0
-  m_Name: cracks14
+  m_Name: rogmes (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5283,7 +5360,7 @@ GameObject:
   - component: {fileID: 477935565}
   - component: {fileID: 477935566}
   m_Layer: 0
-  m_Name: cracks8
+  m_Name: rogmes (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5525,7 +5602,7 @@ GameObject:
   - component: {fileID: 492226305}
   - component: {fileID: 492226306}
   m_Layer: 0
-  m_Name: cracks12
+  m_Name: rogmes (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5606,7 +5683,7 @@ GameObject:
   - component: {fileID: 502716729}
   - component: {fileID: 502716730}
   m_Layer: 0
-  m_Name: cracks5
+  m_Name: rogmes (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5687,7 +5764,7 @@ GameObject:
   - component: {fileID: 513655982}
   - component: {fileID: 513655983}
   m_Layer: 0
-  m_Name: noColoredBricks2
+  m_Name: toublaAxroma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6079,6 +6156,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba955928ddf463345b100ef3a6531dfd, type: 3}
+--- !u!1 &532529143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4734284618692455394, guid: f7bc01a0cd0d32d49bed5e28a453a8a1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4734284618727218422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &545201742
 GameObject:
   m_ObjectHideFlags: 0
@@ -6090,7 +6173,7 @@ GameObject:
   - component: {fileID: 545201743}
   - component: {fileID: 545201744}
   m_Layer: 0
-  m_Name: noColoredBricks4
+  m_Name: toublaAxroma (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6171,7 +6254,7 @@ GameObject:
   - component: {fileID: 552107220}
   - component: {fileID: 552107221}
   m_Layer: 0
-  m_Name: cracks4
+  m_Name: rogmes (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6252,7 +6335,7 @@ GameObject:
   - component: {fileID: 563469403}
   - component: {fileID: 563469404}
   m_Layer: 0
-  m_Name: cracks4
+  m_Name: rogmes (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6333,7 +6416,7 @@ GameObject:
   - component: {fileID: 580904917}
   - component: {fileID: 580904918}
   m_Layer: 0
-  m_Name: rock2
+  m_Name: petresKaiarwmata (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6414,7 +6497,7 @@ GameObject:
   - component: {fileID: 586039036}
   - component: {fileID: 586039037}
   m_Layer: 0
-  m_Name: noColoredBricks4
+  m_Name: toublaAxroma (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6501,7 +6584,7 @@ GameObject:
   - component: {fileID: 591667723}
   - component: {fileID: 591667724}
   m_Layer: 0
-  m_Name: cracks7
+  m_Name: rogmes (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6663,7 +6746,7 @@ GameObject:
   - component: {fileID: 615004494}
   - component: {fileID: 615004495}
   m_Layer: 0
-  m_Name: rock9
+  m_Name: petresKaiarwmata (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6825,7 +6908,7 @@ GameObject:
   - component: {fileID: 625819096}
   - component: {fileID: 625819097}
   m_Layer: 0
-  m_Name: cracks6
+  m_Name: rogmes (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7068,7 +7151,7 @@ GameObject:
   - component: {fileID: 663411809}
   - component: {fileID: 663411810}
   m_Layer: 0
-  m_Name: cracks12
+  m_Name: rogmes (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7432,7 +7515,7 @@ GameObject:
   - component: {fileID: 690865768}
   - component: {fileID: 690865769}
   m_Layer: 0
-  m_Name: cracks14
+  m_Name: rogmes (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7546,7 +7629,7 @@ Transform:
   - {fileID: 1305293511}
   - {fileID: 282493189}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &712662291
 PrefabInstance:
@@ -7638,7 +7721,7 @@ GameObject:
   - component: {fileID: 724262438}
   - component: {fileID: 724262439}
   m_Layer: 0
-  m_Name: cracks13
+  m_Name: rogmes (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7951,161 +8034,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &738567790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 738567791}
-  - component: {fileID: 738567793}
-  - component: {fileID: 738567792}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &738567791
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738567790}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 282043480}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &738567792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738567790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: BACK
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_outlineColor:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontSize: 44.75
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_textAlignment: 258
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
-  m_linkedTextComponent: {fileID: 0}
-  m_isLinkedTextComponent: 0
-  m_isTextTruncated: 0
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_ignoreRectMaskCulling: 0
-  m_ignoreCulling: 1
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_firstVisibleCharacter: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_textInfo:
-    textComponent: {fileID: 738567792}
-    characterCount: 4
-    spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
-    linkCount: 0
-    lineCount: 1
-    pageCount: 1
-    materialCount: 1
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
-  m_subTextObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &738567793
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738567790}
-  m_CullTransparentMesh: 0
 --- !u!1 &755576594
 GameObject:
   m_ObjectHideFlags: 0
@@ -8142,7 +8070,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -303.5}
+  m_AnchoredPosition: {x: 515, y: -215.3}
   m_SizeDelta: {x: 160, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &755576596
@@ -8165,7 +8093,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.4627451}
+    m_NormalColor: {r: 0.5849056, g: 0.3448736, b: 0.3448736, a: 1}
     m_HighlightedColor: {r: 0.7882353, g: 0.34509805, b: 0.34509805, a: 1}
     m_PressedColor: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0.62352943}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -8212,12 +8140,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e302d1c437caa641a3edc2b3ede72ca, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8252,7 +8180,7 @@ GameObject:
   - component: {fileID: 782624044}
   - component: {fileID: 782624043}
   m_Layer: 0
-  m_Name: rock
+  m_Name: petresKaiarwmata
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8414,7 +8342,7 @@ GameObject:
   - component: {fileID: 791105310}
   - component: {fileID: 791105311}
   m_Layer: 0
-  m_Name: cracks5
+  m_Name: rogmes (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8591,11 +8519,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804405180}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19999984, y: 2.9400003, z: 0}
+  m_LocalPosition: {x: -0.2, y: 2.94, z: 0}
   m_LocalScale: {x: 1.0778246, y: 1.07125, z: 1}
   m_Children: []
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 4
+  m_Father: {fileID: 1238340032}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &804405182
 SpriteRenderer:
@@ -8688,7 +8616,7 @@ Transform:
   - {fileID: 1025545482}
   - {fileID: 1448131544}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &815307875
 GameObject:
@@ -8701,7 +8629,7 @@ GameObject:
   - component: {fileID: 815307876}
   - component: {fileID: 815307877}
   m_Layer: 0
-  m_Name: cracks3
+  m_Name: rogmes (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8782,7 +8710,7 @@ GameObject:
   - component: {fileID: 824234111}
   - component: {fileID: 824234112}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8944,7 +8872,7 @@ GameObject:
   - component: {fileID: 850901381}
   - component: {fileID: 850901382}
   m_Layer: 0
-  m_Name: cracks10
+  m_Name: rogmes (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9024,7 +8952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863544993}
   m_Layer: 0
-  m_Name: Bloody Stains Group5
+  m_Name: Bloody Stains (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9046,8 +8974,8 @@ Transform:
   - {fileID: 1297196615}
   - {fileID: 2027589324}
   - {fileID: 1789159288}
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 9
+  m_Father: {fileID: 1256208069}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.625}
 --- !u!1 &874388868
 GameObject:
@@ -9085,7 +9013,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -393.404}
+  m_AnchoredPosition: {x: 515, y: -294.2}
   m_SizeDelta: {x: 160, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874388870
@@ -9108,7 +9036,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.4627451}
+    m_NormalColor: {r: 0.5849056, g: 0.3448736, b: 0.3448736, a: 1}
     m_HighlightedColor: {r: 0.7882353, g: 0.34509805, b: 0.34509805, a: 1}
     m_PressedColor: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0.62352943}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -9155,12 +9083,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e302d1c437caa641a3edc2b3ede72ca, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9189,7 +9117,7 @@ GameObject:
   - component: {fileID: 890436277}
   - component: {fileID: 890436278}
   m_Layer: 0
-  m_Name: cracks8
+  m_Name: rogmes (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9270,7 +9198,7 @@ GameObject:
   - component: {fileID: 893641146}
   - component: {fileID: 893641147}
   m_Layer: 0
-  m_Name: noColoredBricks2
+  m_Name: toublaAxroma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9351,7 +9279,7 @@ GameObject:
   - component: {fileID: 913351645}
   - component: {fileID: 913351646}
   m_Layer: 0
-  m_Name: noColoredBricks3
+  m_Name: toublaAxroma (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9432,7 +9360,7 @@ GameObject:
   - component: {fileID: 919022213}
   - component: {fileID: 919022214}
   m_Layer: 0
-  m_Name: cracks
+  m_Name: rogmes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9520,7 +9448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &922958800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9592,12 +9520,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 953431617}
   - {fileID: 1335490456}
   - {fileID: 1353731523}
   - {fileID: 346594991}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9775,7 +9702,7 @@ GameObject:
   - component: {fileID: 946933674}
   - component: {fileID: 946933675}
   m_Layer: 0
-  m_Name: rock11
+  m_Name: petresKaiarwmata (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9845,41 +9772,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &953431616
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 953431617}
-  m_Layer: 5
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &953431617
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953431616}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 922958803}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -853.55, y: -515}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &953626703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9970,7 +9862,7 @@ GameObject:
   - component: {fileID: 968250771}
   - component: {fileID: 968250772}
   m_Layer: 0
-  m_Name: cracks
+  m_Name: rogmes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10135,8 +10027,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Controlls
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10161,7 +10053,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 30.35
+  m_fontSize: 30.65
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -10352,7 +10244,7 @@ GameObject:
   - component: {fileID: 1013858325}
   - component: {fileID: 1013858326}
   m_Layer: 0
-  m_Name: cracks5
+  m_Name: rogmes (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10542,95 +10434,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1045592287
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 9219678424128097106, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: endReachedDistance
-      value: 0.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097110, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: chaseDistance
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097110, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: fireDistance
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097110, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: fireBallSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.74
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219678424128097113, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy_Fire_Demon
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac, type: 3}
 --- !u!1 &1048593862
 GameObject:
   m_ObjectHideFlags: 0
@@ -10864,7 +10667,7 @@ MonoBehaviour:
   manualDebugFloorRoof: 0
   showSearchTree: 0
   unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
+  logPathResults: 4
   maxNearestNodeDistance: 100
   scanOnStartup: 1
   fullGetNearestSearch: 0
@@ -10949,7 +10752,7 @@ GameObject:
   - component: {fileID: 1056072488}
   - component: {fileID: 1056072489}
   m_Layer: 0
-  m_Name: cracks3
+  m_Name: rogmes (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11030,7 +10833,7 @@ GameObject:
   - component: {fileID: 1068041983}
   - component: {fileID: 1068041984}
   m_Layer: 0
-  m_Name: cracks14
+  m_Name: rogmes (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11110,7 +10913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1073590483}
   m_Layer: 0
-  m_Name: Bloody Stains Group2
+  m_Name: Bloody Stains (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11132,8 +10935,8 @@ Transform:
   - {fileID: 2010903227}
   - {fileID: 1028580181}
   - {fileID: 1760036346}
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 6
+  m_Father: {fileID: 1256208069}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.625}
 --- !u!1 &1078389617
 GameObject:
@@ -11146,7 +10949,7 @@ GameObject:
   - component: {fileID: 1078389618}
   - component: {fileID: 1078389619}
   m_Layer: 0
-  m_Name: cracks7
+  m_Name: rogmes (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11227,7 +11030,7 @@ GameObject:
   - component: {fileID: 1082545004}
   - component: {fileID: 1082545005}
   m_Layer: 0
-  m_Name: cracks9
+  m_Name: rogmes (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11308,7 +11111,7 @@ GameObject:
   - component: {fileID: 1093405169}
   - component: {fileID: 1093405170}
   m_Layer: 0
-  m_Name: cracks6
+  m_Name: rogmes (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11389,7 +11192,7 @@ GameObject:
   - component: {fileID: 1096338021}
   - component: {fileID: 1096338022}
   m_Layer: 0
-  m_Name: rock7
+  m_Name: petresKaiarwmata (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11470,7 +11273,7 @@ GameObject:
   - component: {fileID: 1106367842}
   - component: {fileID: 1106367843}
   m_Layer: 0
-  m_Name: noColoredBricks4
+  m_Name: toublaAxroma (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11551,7 +11354,7 @@ GameObject:
   - component: {fileID: 1109138157}
   - component: {fileID: 1109138158}
   m_Layer: 0
-  m_Name: cracks4
+  m_Name: rogmes (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11621,65 +11424,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1110836077
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1110836078}
-  - component: {fileID: 1110836080}
-  m_Layer: 8
-  m_Name: Enemies
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1110836078
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110836077}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.967154, y: 2.5102675, z: -7.511563}
-  m_LocalScale: {x: 1.0778246, y: 1.07125, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1267647924}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1110836080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110836077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  drawGizmos: 1
-  detailedGizmos: 0
-  startEndModifier:
-    addPoints: 0
-    exactStartPoint: 3
-    exactEndPoint: 3
-    useRaycasting: 0
-    mask:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    useGraphRaycasting: 0
-  traversableTags: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  graphMask:
-    value: -1
 --- !u!1 &1112175145
 GameObject:
   m_ObjectHideFlags: 0
@@ -11691,7 +11435,7 @@ GameObject:
   - component: {fileID: 1112175146}
   - component: {fileID: 1112175147}
   m_Layer: 0
-  m_Name: cracks8
+  m_Name: rogmes (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11930,7 +11674,7 @@ GameObject:
   - component: {fileID: 1119918416}
   - component: {fileID: 1119918417}
   m_Layer: 0
-  m_Name: cracks6
+  m_Name: rogmes (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12011,7 +11755,7 @@ GameObject:
   - component: {fileID: 1141308617}
   - component: {fileID: 1141308618}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12092,7 +11836,7 @@ GameObject:
   - component: {fileID: 1155437471}
   - component: {fileID: 1155437472}
   m_Layer: 0
-  m_Name: cracks9
+  m_Name: rogmes (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12172,7 +11916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158356267}
   m_Layer: 0
-  m_Name: cracks group 2
+  m_Name: Cracks (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12216,7 +11960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158616877}
   m_Layer: 0
-  m_Name: Mossaic Groups5
+  m_Name: AnatrixiastikaMosaika (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12252,7 +11996,7 @@ GameObject:
   - component: {fileID: 1163852100}
   - component: {fileID: 1163852101}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12333,7 +12077,7 @@ GameObject:
   - component: {fileID: 1165710169}
   - component: {fileID: 1165710170}
   m_Layer: 0
-  m_Name: cracks8
+  m_Name: rogmes (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12414,7 +12158,7 @@ GameObject:
   - component: {fileID: 1171914606}
   - component: {fileID: 1171914607}
   m_Layer: 0
-  m_Name: cracks11
+  m_Name: rogmes (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12495,7 +12239,7 @@ GameObject:
   - component: {fileID: 1179311678}
   - component: {fileID: 1179311679}
   m_Layer: 0
-  m_Name: cracks11
+  m_Name: rogmes (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12576,7 +12320,7 @@ GameObject:
   - component: {fileID: 1186741607}
   - component: {fileID: 1186741608}
   m_Layer: 0
-  m_Name: rock6
+  m_Name: petresKaiarwmata (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13065,7 +12809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238340032}
   m_Layer: 0
-  m_Name: Bloody Stains Group
+  m_Name: Bloody Stains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13081,8 +12825,13 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1887648002}
+  m_Children:
+  - {fileID: 35856262}
+  - {fileID: 1350862037}
+  - {fileID: 470493443}
+  - {fileID: 804405181}
+  - {fileID: 1639311277}
+  m_Father: {fileID: 1256208069}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1243964637
@@ -13096,7 +12845,7 @@ GameObject:
   - component: {fileID: 1243964638}
   - component: {fileID: 1243964639}
   m_Layer: 0
-  m_Name: cracks12
+  m_Name: rogmes (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13177,7 +12926,7 @@ GameObject:
   - component: {fileID: 1251116366}
   - component: {fileID: 1251116367}
   m_Layer: 0
-  m_Name: cracks11
+  m_Name: rogmes (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13258,7 +13007,7 @@ GameObject:
   - component: {fileID: 1253286141}
   - component: {fileID: 1253286142}
   m_Layer: 0
-  m_Name: cracks14
+  m_Name: rogmes (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13328,6 +13077,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1256208068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1256208069}
+  m_Layer: 0
+  m_Name: Bloody Stains Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1256208069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256208068}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1238340032}
+  - {fileID: 1073590483}
+  - {fileID: 1855422366}
+  - {fileID: 426945494}
+  - {fileID: 863544993}
+  m_Father: {fileID: 1267647924}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1267647923
 GameObject:
   m_ObjectHideFlags: 0
@@ -13360,11 +13144,10 @@ Transform:
   - {fileID: 1703901592}
   - {fileID: 453739192}
   - {fileID: 1850509535}
-  - {fileID: 1110836078}
   - {fileID: 805205880}
   - {fileID: 1856488948}
   - {fileID: 8311426600931763313}
-  - {fileID: 1887648002}
+  - {fileID: 1256208069}
   - {fileID: 1885031646}
   - {fileID: 712493584}
   m_Father: {fileID: 1807821193}
@@ -13510,7 +13293,7 @@ GameObject:
   - component: {fileID: 1282211594}
   - component: {fileID: 1282211595}
   m_Layer: 0
-  m_Name: cracks13
+  m_Name: rogmes (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13590,7 +13373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1291941357}
   m_Layer: 0
-  m_Name: Mossaic Groups2
+  m_Name: AnatrixiastikaMosaika (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13897,7 +13680,7 @@ GameObject:
   - component: {fileID: 1305293511}
   - component: {fileID: 1305293512}
   m_Layer: 0
-  m_Name: rock15
+  m_Name: petresKaiarwmata (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14220,7 +14003,7 @@ GameObject:
   - component: {fileID: 1327755834}
   - component: {fileID: 1327755835}
   m_Layer: 0
-  m_Name: cracks6
+  m_Name: rogmes (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14401,7 +14184,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 922958803}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14540,7 +14323,7 @@ GameObject:
   - component: {fileID: 1342896403}
   - component: {fileID: 1342896404}
   m_Layer: 0
-  m_Name: cracks7
+  m_Name: rogmes (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14702,7 +14485,7 @@ GameObject:
   - component: {fileID: 1345845668}
   - component: {fileID: 1345845669}
   m_Layer: 0
-  m_Name: cracks4
+  m_Name: rogmes (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14783,7 +14566,7 @@ GameObject:
   - component: {fileID: 1348808664}
   - component: {fileID: 1348808665}
   m_Layer: 0
-  m_Name: noColoredBricks4
+  m_Name: toublaAxroma (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14881,8 +14664,8 @@ Transform:
   m_LocalPosition: {x: -1.593025, y: -2.6974075, z: 0}
   m_LocalScale: {x: 1.0778246, y: 1.07125, z: 1}
   m_Children: []
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 2
+  m_Father: {fileID: 1238340032}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1350862038
 SpriteRenderer:
@@ -14966,7 +14749,7 @@ RectTransform:
   m_Children:
   - {fileID: 2101168656}
   m_Father: {fileID: 922958803}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -15101,7 +14884,7 @@ GameObject:
   - component: {fileID: 1370303697}
   - component: {fileID: 1370303698}
   m_Layer: 0
-  m_Name: Port
+  m_Name: Porta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15182,7 +14965,7 @@ GameObject:
   - component: {fileID: 1376874077}
   - component: {fileID: 1376874078}
   m_Layer: 0
-  m_Name: cracks3
+  m_Name: rogmes (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15263,7 +15046,7 @@ GameObject:
   - component: {fileID: 1381194503}
   - component: {fileID: 1381194504}
   m_Layer: 0
-  m_Name: cracks14
+  m_Name: rogmes (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15343,7 +15126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1386829466}
   m_Layer: 0
-  m_Name: Cracks group  4
+  m_Name: Cracks (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15585,7 +15368,7 @@ GameObject:
   - component: {fileID: 1399726343}
   - component: {fileID: 1399726344}
   m_Layer: 0
-  m_Name: cracks10
+  m_Name: rogmes (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15700,7 +15483,7 @@ GameObject:
   - component: {fileID: 1403290475}
   - component: {fileID: 1403290476}
   m_Layer: 0
-  m_Name: cracks10
+  m_Name: rogmes (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15851,6 +15634,169 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!43 &1412428721
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 18
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010000000300020004000000000005000300010006000200030007000100
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 224
+    _typelessdata: 000000bf0000003f0000000000000080000080bf00000000000000800000003f000000bf00000000000000800000803f00000080000000800000003f0000003f00000000000080bf000000800000008000000080000000bf000000bf000000000000803f0000008000000080000000800000003f0000003f0000000000000080000080bf0000000000000080000000bf0000003f000000000000803f0000008000000080000000800000003f000000bf00000000000080bf000000800000008000000080000000bf000000bf00000000000000800000803f0000008000000080
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.5, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1412677603
 GameObject:
   m_ObjectHideFlags: 0
@@ -15862,7 +15808,7 @@ GameObject:
   - component: {fileID: 1412677604}
   - component: {fileID: 1412677605}
   m_Layer: 0
-  m_Name: noColoredBricks3
+  m_Name: toublaAxroma (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15943,7 +15889,7 @@ GameObject:
   - component: {fileID: 1429791104}
   - component: {fileID: 1429791105}
   m_Layer: 0
-  m_Name: cracks12
+  m_Name: rogmes (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16023,7 +15969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1439011919}
   m_Layer: 0
-  m_Name: Mossaic Groups7
+  m_Name: AnatrixiastikaMosaika (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16141,7 +16087,7 @@ GameObject:
   - component: {fileID: 1446243646}
   - component: {fileID: 1446243647}
   m_Layer: 0
-  m_Name: cracks2
+  m_Name: rogmes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16338,7 +16284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1481529388}
   m_Layer: 0
-  m_Name: Cracks group 3
+  m_Name: Cracks (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16383,7 +16329,7 @@ GameObject:
   - component: {fileID: 1489481560}
   - component: {fileID: 1489481561}
   m_Layer: 0
-  m_Name: rock14
+  m_Name: petresKaiarwmata (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16464,7 +16410,7 @@ GameObject:
   - component: {fileID: 1494525377}
   - component: {fileID: 1494525378}
   m_Layer: 0
-  m_Name: noColoredBricks2
+  m_Name: toublaAxroma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16766,7 +16712,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1507776788 stripped
 Transform:
@@ -16784,7 +16730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508568636}
   m_Layer: 0
-  m_Name: Cracks group 5
+  m_Name: Cracks (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16829,7 +16775,7 @@ GameObject:
   - component: {fileID: 1516805543}
   - component: {fileID: 1516805544}
   m_Layer: 0
-  m_Name: cracks3
+  m_Name: rogmes (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16991,7 +16937,7 @@ GameObject:
   - component: {fileID: 1529240452}
   - component: {fileID: 1529240453}
   m_Layer: 0
-  m_Name: cracks8
+  m_Name: rogmes (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17072,7 +17018,7 @@ GameObject:
   - component: {fileID: 1533758640}
   - component: {fileID: 1533758641}
   m_Layer: 0
-  m_Name: cracks11
+  m_Name: rogmes (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17153,7 +17099,7 @@ GameObject:
   - component: {fileID: 1559841710}
   - component: {fileID: 1559841711}
   m_Layer: 0
-  m_Name: cracks7
+  m_Name: rogmes (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17234,7 +17180,7 @@ GameObject:
   - component: {fileID: 1566537103}
   - component: {fileID: 1566537104}
   m_Layer: 0
-  m_Name: noColoredBricks2
+  m_Name: toublaAxroma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17477,7 +17423,7 @@ GameObject:
   - component: {fileID: 1575073554}
   - component: {fileID: 1575073555}
   m_Layer: 0
-  m_Name: cracks12
+  m_Name: rogmes (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17558,7 +17504,7 @@ GameObject:
   - component: {fileID: 1585201414}
   - component: {fileID: 1585201415}
   m_Layer: 0
-  m_Name: noColoredBricks3
+  m_Name: toublaAxroma (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17718,7 +17664,7 @@ GameObject:
   - component: {fileID: 1592981925}
   - component: {fileID: 1592981926}
   m_Layer: 0
-  m_Name: cracks9
+  m_Name: rogmes (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17799,7 +17745,7 @@ GameObject:
   - component: {fileID: 1614365510}
   - component: {fileID: 1614365511}
   m_Layer: 0
-  m_Name: cracks9
+  m_Name: rogmes (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18040,7 +17986,7 @@ GameObject:
   - component: {fileID: 1625662393}
   - component: {fileID: 1625662394}
   m_Layer: 0
-  m_Name: cracks6
+  m_Name: rogmes (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18203,7 +18149,7 @@ GameObject:
   - component: {fileID: 1635864664}
   - component: {fileID: 1635864665}
   m_Layer: 0
-  m_Name: noColoredBricks
+  m_Name: toublaAxroma (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18298,11 +18244,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639311276}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7, y: -2.3099997, z: 0}
+  m_LocalPosition: {x: -7, y: -2.31, z: 0}
   m_LocalScale: {x: 1.0778246, y: 1.07125, z: 1}
   m_Children: []
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 5
+  m_Father: {fileID: 1238340032}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1639311278
 SpriteRenderer:
@@ -18447,7 +18393,7 @@ GameObject:
   - component: {fileID: 1654612909}
   - component: {fileID: 1654612910}
   m_Layer: 0
-  m_Name: cracks
+  m_Name: rogmes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18961,7 +18907,7 @@ GameObject:
   - component: {fileID: 1705970763}
   - component: {fileID: 1705970764}
   m_Layer: 0
-  m_Name: cracks11
+  m_Name: rogmes (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19042,7 +18988,7 @@ GameObject:
   - component: {fileID: 1707957298}
   - component: {fileID: 1707957299}
   m_Layer: 0
-  m_Name: noColoredBricks3
+  m_Name: toublaAxroma (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19123,7 +19069,7 @@ GameObject:
   - component: {fileID: 1714139697}
   - component: {fileID: 1714139698}
   m_Layer: 0
-  m_Name: rock12
+  m_Name: petresKaiarwmata (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19285,7 +19231,7 @@ GameObject:
   - component: {fileID: 1730447771}
   - component: {fileID: 1730447772}
   m_Layer: 0
-  m_Name: rock4
+  m_Name: petresKaiarwmata (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19530,7 +19476,7 @@ GameObject:
   - component: {fileID: 1762276145}
   - component: {fileID: 1762276146}
   m_Layer: 0
-  m_Name: cracks9
+  m_Name: rogmes (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19611,7 +19557,7 @@ GameObject:
   - component: {fileID: 1763778933}
   - component: {fileID: 1763778934}
   m_Layer: 0
-  m_Name: cracks4
+  m_Name: rogmes (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19798,7 +19744,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -213.59601}
+  m_AnchoredPosition: {x: 515, y: -136.4}
   m_SizeDelta: {x: 160, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1778116430
@@ -19821,7 +19767,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.4627451}
+    m_NormalColor: {r: 0.5849056, g: 0.3448736, b: 0.3448736, a: 1}
     m_HighlightedColor: {r: 0.7882353, g: 0.34509805, b: 0.34509805, a: 1}
     m_PressedColor: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0.62352943}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -19844,17 +19790,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 306137968}
-        m_MethodName: unPauseit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1353731522}
         m_MethodName: SetActive
         m_Mode: 6
@@ -19879,12 +19814,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e302d1c437caa641a3edc2b3ede72ca, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19913,7 +19848,7 @@ GameObject:
   - component: {fileID: 1785353586}
   - component: {fileID: 1785353587}
   m_Layer: 0
-  m_Name: cracks
+  m_Name: rogmes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20076,7 +20011,7 @@ GameObject:
   - component: {fileID: 1794242872}
   - component: {fileID: 1794242873}
   m_Layer: 0
-  m_Name: cracks8
+  m_Name: rogmes (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20238,7 +20173,7 @@ GameObject:
   - component: {fileID: 1807552957}
   - component: {fileID: 1807552958}
   m_Layer: 0
-  m_Name: cracks2
+  m_Name: rogmes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20341,7 +20276,7 @@ Transform:
   - {fileID: 1403274725}
   - {fileID: 1389022990}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819698499
 GameObject:
@@ -20471,9 +20406,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 3
-  m_FollowOffset: {x: 0.03, y: -0.08, z: -30.36}
-  m_XDamping: 1.75
-  m_YDamping: 1.75
+  m_FollowOffset: {x: -0.23, y: -0.5, z: -30.55}
+  m_XDamping: 6.38
+  m_YDamping: 2.1
   m_ZDamping: 0
   m_AngularDampingMode: 0
   m_PitchDamping: 0
@@ -20553,7 +20488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855422366}
   m_Layer: 0
-  m_Name: Bloody Stains Group3
+  m_Name: Bloody Stains (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20575,8 +20510,8 @@ Transform:
   - {fileID: 476004062}
   - {fileID: 369651695}
   - {fileID: 799467337}
-  m_Father: {fileID: 1887648002}
-  m_RootOrder: 7
+  m_Father: {fileID: 1256208069}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.625}
 --- !u!1 &1856488947
 GameObject:
@@ -20625,7 +20560,7 @@ Transform:
   - {fileID: 1508568636}
   - {fileID: 2124591073}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1867397421
 GameObject:
@@ -20637,7 +20572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1867397422}
   m_Layer: 0
-  m_Name: Mossaic Groups6
+  m_Name: AnatrixiastikaMosaika (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20673,7 +20608,7 @@ GameObject:
   - component: {fileID: 1880646272}
   - component: {fileID: 1880646273}
   m_Layer: 0
-  m_Name: cracks14
+  m_Name: rogmes (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20754,7 +20689,7 @@ GameObject:
   - component: {fileID: 1882273020}
   - component: {fileID: 1882273021}
   m_Layer: 0
-  m_Name: cracks
+  m_Name: rogmes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20834,7 +20769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885031646}
   m_Layer: 0
-  m_Name: Mossaics of Terror
+  m_Name: MosaikaToyTromou
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20859,46 +20794,6 @@ Transform:
   - {fileID: 1867397422}
   - {fileID: 1439011919}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1887648001
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1887648002}
-  m_Layer: 0
-  m_Name: Bloody Stains Groups
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1887648002
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887648001}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1238340032}
-  - {fileID: 35856262}
-  - {fileID: 1350862037}
-  - {fileID: 470493443}
-  - {fileID: 804405181}
-  - {fileID: 1639311277}
-  - {fileID: 1073590483}
-  - {fileID: 1855422366}
-  - {fileID: 426945494}
-  - {fileID: 863544993}
-  m_Father: {fileID: 1267647924}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1894800103
@@ -20912,7 +20807,7 @@ GameObject:
   - component: {fileID: 1894800104}
   - component: {fileID: 1894800105}
   m_Layer: 0
-  m_Name: noColoredBricks2
+  m_Name: toublaAxroma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20993,7 +20888,7 @@ GameObject:
   - component: {fileID: 1903126757}
   - component: {fileID: 1903126758}
   m_Layer: 0
-  m_Name: Torch
+  m_Name: daulos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21073,7 +20968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1907269473}
   m_Layer: 0
-  m_Name: Mossaic Groups
+  m_Name: AnatrixiastikaMosaika
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21188,7 +21083,7 @@ GameObject:
   - component: {fileID: 1912804582}
   - component: {fileID: 1912804583}
   m_Layer: 0
-  m_Name: cracks10
+  m_Name: rogmes (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21350,7 +21245,7 @@ GameObject:
   - component: {fileID: 1941377291}
   - component: {fileID: 1941377292}
   m_Layer: 0
-  m_Name: cracks2
+  m_Name: rogmes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21456,8 +21351,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 588012920}
-  m_Follow: {fileID: 256701934}
+  m_LookAt: {fileID: 0}
+  m_Follow: {fileID: 588012920}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 0.99
@@ -21481,12 +21376,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948522797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.172277, y: 2.7530613, z: -38.477}
+  m_LocalPosition: {x: 6.17, y: 2.401, z: -40.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1824261157}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1948522800
 MonoBehaviour:
@@ -21505,169 +21400,6 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1389022991}
   m_ConfineScreenEdges: 1
   m_Damping: 0
---- !u!43 &1954049904
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 18
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0.5, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010000000300020004000000000005000300010006000200030007000100
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 224
-    _typelessdata: 000000bf0000003f0000000000000080000080bf00000000000000800000003f000000bf00000000000000800000803f00000080000000800000003f0000003f00000000000080bf000000800000008000000080000000bf000000bf000000000000803f0000008000000080000000800000003f0000003f0000000000000080000080bf0000000000000080000000bf0000003f000000000000803f0000008000000080000000800000003f000000bf00000000000080bf000000800000008000000080000000bf000000bf00000000000000800000803f0000008000000080
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.5, y: 0.5, z: 0}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1973477875
 GameObject:
   m_ObjectHideFlags: 0
@@ -21678,7 +21410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1973477876}
   m_Layer: 0
-  m_Name: Mossaic Groups3
+  m_Name: AnatrixiastikaMosaika (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22024,11 +21756,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024305134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.172277, y: 2.7530613, z: -38.477}
+  m_LocalPosition: {x: 6.17, y: 2.401, z: -40.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2024305138
 MonoBehaviour:
@@ -22431,7 +22163,7 @@ GameObject:
   - component: {fileID: 2044613884}
   - component: {fileID: 2044613885}
   m_Layer: 0
-  m_Name: noColoredBricks2
+  m_Name: toublaAxroma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22512,7 +22244,7 @@ GameObject:
   - component: {fileID: 2047207169}
   - component: {fileID: 2047207170}
   m_Layer: 0
-  m_Name: cracks13
+  m_Name: rogmes (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22593,7 +22325,7 @@ GameObject:
   - component: {fileID: 2052486337}
   - component: {fileID: 2052486338}
   m_Layer: 0
-  m_Name: noColoredBricks4
+  m_Name: toublaAxroma (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22674,7 +22406,7 @@ GameObject:
   - component: {fileID: 2054138422}
   - component: {fileID: 2054138423}
   m_Layer: 0
-  m_Name: cracks2
+  m_Name: rogmes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22755,7 +22487,7 @@ GameObject:
   - component: {fileID: 2061674195}
   - component: {fileID: 2061674196}
   m_Layer: 0
-  m_Name: cracks10
+  m_Name: rogmes (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22965,7 +22697,7 @@ MonoBehaviour:
     m_Top: 30
     m_Bottom: 508
   m_ChildAlignment: 4
-  m_Spacing: -87.48
+  m_Spacing: 33.9
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -23063,7 +22795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2124591073}
   m_Layer: 0
-  m_Name: Cracks group 6
+  m_Name: Cracks (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23108,7 +22840,7 @@ GameObject:
   - component: {fileID: 2125271830}
   - component: {fileID: 2125271831}
   m_Layer: 0
-  m_Name: cracks12
+  m_Name: rogmes (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23314,8 +23046,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Restart
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
-  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23340,7 +23072,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 30.35
+  m_fontSize: 30.65
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -23423,7 +23155,7 @@ GameObject:
   - component: {fileID: 2142625178}
   - component: {fileID: 2142625179}
   m_Layer: 0
-  m_Name: cracks13
+  m_Name: rogmes (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23508,7 +23240,7 @@ PrefabInstance:
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.13080996
+      value: -0.13081
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
@@ -23518,17 +23250,17 @@ PrefabInstance:
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
@@ -23563,7 +23295,7 @@ PrefabInstance:
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.31000006
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854443, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
@@ -23604,16 +23336,6 @@ PrefabInstance:
       propertyPath: txtInformative
       value: 
       objectReference: {fileID: 1335490457}
-    - target: {fileID: 4734284618692455407, guid: f7bc01a0cd0d32d49bed5e28a453a8a1,
-        type: 3}
-      propertyPath: speed
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4734284618692455407, guid: f7bc01a0cd0d32d49bed5e28a453a8a1,
-        type: 3}
-      propertyPath: arrowForce
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4734284619314659726, guid: f7bc01a0cd0d32d49bed5e28a453a8a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23652,7 +23374,7 @@ PrefabInstance:
     - target: {fileID: 4734284619314659726, guid: f7bc01a0cd0d32d49bed5e28a453a8a1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4734284619314659726, guid: f7bc01a0cd0d32d49bed5e28a453a8a1,
         type: 3}
@@ -23900,7 +23622,7 @@ PrefabInstance:
     - target: {fileID: 4650310678524268446, guid: 0950bc001d7373546923b59724b0bbdc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8311426600641151211, guid: 0950bc001d7373546923b59724b0bbdc,
         type: 3}
@@ -23980,3 +23702,82 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8311426600931763312}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9219678424588500746
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9219678424128097110, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: playerInstance
+      value: 
+      objectReference: {fileID: 532529143}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097111, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097113, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy_Fire_Demon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219678424128097117, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 588012920}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac, type: 3}
