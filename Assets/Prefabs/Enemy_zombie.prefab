@@ -100,11 +100,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc02422d800400c41b4fae8239a7e313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isRanged: 0
   playerInstance: {fileID: 4734284618692455394, guid: f7bc01a0cd0d32d49bed5e28a453a8a1,
     type: 3}
   chaseDistance: 1.5
   fireDistance: 0.5
+  fireBallPrefab: {fileID: 0}
+  attackOffset: {x: 0, y: 0, z: 0}
+  fireBallSpeed: 2
   health: 1
+  reloadTime: 1.2
 --- !u!114 &2889858356054035296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,7 +156,7 @@ MonoBehaviour:
   repathRate: 0.5
   canSearch: 1
   canMove: 1
-  maxSpeed: 0.2
+  maxSpeed: 0
   gravity: {x: NaN, y: NaN, z: NaN}
   groundMask:
     serializedVersion: 2
