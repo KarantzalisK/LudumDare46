@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent (typeof(Pathfinding.AIPath))]
 public class Enemy : MonoBehaviour
 {
+    public GameObject playerInstance;
+    public float chaseDistance = 5;
+    public float fireDistance = 2.5f;
 
 
-    public int health;
+    public int health = 3;
 
 
     // Start is called before the first frame update
@@ -18,11 +22,13 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         if (health == 0) Die(); 
+        //if(Mathf.Abs(transform.position.x - playerInstance.transform.position.x)<=chaseDistance || Mathf.Abs(transform.position.y - playerInstance.transform.position.y) <= chaseDistance){
+        //    gameObject.GetComponent<Pathfinding.AIPath>().canMove = true;
+        //}
     }
 
     private void FixedUpdate()
     {
-        Debug.Log(gameObject.GetComponent<Rigidbody2D>().velocity.x.ToString());
 
 
     }
@@ -37,8 +43,16 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    void Die() { 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         
+
+
+    }
+
+
+    void Die() {
+        Destroy(this.gameObject);
         
     }
 

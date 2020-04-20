@@ -139,6 +139,9 @@ public class PlayerMovement : MonoBehaviour
 			Debug.Log("Ready To Carry Torch");
 			readyToCarryFire = true;
 		}
+
+
+
 		
 	}
 
