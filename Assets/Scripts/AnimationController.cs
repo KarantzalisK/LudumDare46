@@ -28,12 +28,15 @@ public class AnimationController : MonoBehaviour
             sb.sprite = LEFT;
             if (flip){
                 sb.flipX = false;
+                directionDetect();
             }
         }if (direction.x > 0){
             sb.sprite = RIGHT;
             if (flip==false)
             {
                 sb.flipX = true;
+                directionDetect();
+
             }
         }
         if (direction.y < 0){
@@ -42,12 +45,14 @@ public class AnimationController : MonoBehaviour
             {
                 gameObject.GetComponentInChildren<SpriteRenderer>().flipY = false;
             }
+            directionDetect();
 
 
         }
         if (direction.y > 0){
             sb.sprite = UP;
             gameObject.GetComponentInChildren<SpriteRenderer>().flipY = true;
+            directionDetect();
 
         }
 
