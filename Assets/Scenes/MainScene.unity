@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 20012588}
   - component: {fileID: 20012589}
   m_Layer: 0
-  m_Name: rogmes (8)
+  m_Name: cracks9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 21233143}
   - component: {fileID: 21233144}
   m_Layer: 0
-  m_Name: rogmes (4)
+  m_Name: cracks5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -553,11 +553,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35856261}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.370258, y: -0.17469, z: -1.53}
+  m_LocalPosition: {x: 3.370258, y: -0.17468996, z: -1.53}
   m_LocalScale: {x: 1.4500108, y: 1.3979813, z: 1}
   m_Children: []
-  m_Father: {fileID: 1238340032}
-  m_RootOrder: 0
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &35856263
 SpriteRenderer:
@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 45463746}
   - component: {fileID: 45463747}
   m_Layer: 0
-  m_Name: rogmes (9)
+  m_Name: cracks10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -954,7 +954,7 @@ GameObject:
   - component: {fileID: 70030028}
   - component: {fileID: 70030029}
   m_Layer: 0
-  m_Name: rogmes (4)
+  m_Name: cracks5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1035,7 +1035,7 @@ GameObject:
   - component: {fileID: 76957460}
   - component: {fileID: 76957461}
   m_Layer: 0
-  m_Name: rogmes (10)
+  m_Name: cracks11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1201,7 +1201,7 @@ GameObject:
   - component: {fileID: 92150490}
   - component: {fileID: 92150491}
   m_Layer: 0
-  m_Name: rogmes (1)
+  m_Name: cracks2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1628,7 +1628,7 @@ GameObject:
   - component: {fileID: 115875349}
   - component: {fileID: 115875350}
   m_Layer: 0
-  m_Name: rogmes (6)
+  m_Name: cracks7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1709,7 +1709,7 @@ GameObject:
   - component: {fileID: 123323059}
   - component: {fileID: 123323060}
   m_Layer: 0
-  m_Name: petresKaiarwmata (2)
+  m_Name: rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2026,7 +2026,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -2072,7 +2072,7 @@ GameObject:
   - component: {fileID: 149818915}
   - component: {fileID: 149818916}
   m_Layer: 0
-  m_Name: rogmes (1)
+  m_Name: cracks2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2153,7 +2153,7 @@ GameObject:
   - component: {fileID: 173674892}
   - component: {fileID: 173674893}
   m_Layer: 0
-  m_Name: rogmes (2)
+  m_Name: cracks3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2561,7 +2561,7 @@ GameObject:
   - component: {fileID: 231487616}
   - component: {fileID: 231487617}
   m_Layer: 0
-  m_Name: rogmes (6)
+  m_Name: cracks7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2840,7 +2840,7 @@ GameObject:
   - component: {fileID: 238240566}
   - component: {fileID: 238240567}
   m_Layer: 0
-  m_Name: rogmes (12)
+  m_Name: cracks13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3500,7 +3500,7 @@ GameObject:
   - component: {fileID: 282493189}
   - component: {fileID: 282493190}
   m_Layer: 0
-  m_Name: petresKaiarwmata (15)
+  m_Name: rock16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3697,7 +3697,7 @@ GameObject:
   - component: {fileID: 287783849}
   - component: {fileID: 287783850}
   m_Layer: 0
-  m_Name: petresKaiarwmata (12)
+  m_Name: rock13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3940,7 +3940,7 @@ GameObject:
   - component: {fileID: 312789268}
   - component: {fileID: 312789269}
   m_Layer: 0
-  m_Name: rogmes (2)
+  m_Name: cracks3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4102,7 +4102,7 @@ GameObject:
   - component: {fileID: 326992470}
   - component: {fileID: 326992471}
   m_Layer: 0
-  m_Name: petresKaiarwmata (7)
+  m_Name: rock8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4299,7 +4299,7 @@ GameObject:
   - component: {fileID: 340267843}
   - component: {fileID: 340267844}
   m_Layer: 0
-  m_Name: rogmes (4)
+  m_Name: cracks5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4380,7 +4380,7 @@ GameObject:
   - component: {fileID: 343485289}
   - component: {fileID: 343485290}
   m_Layer: 0
-  m_Name: rogmes
+  m_Name: cracks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5029,7 +5029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 376374769}
   m_Layer: 0
-  m_Name: AnatrixiastikaMosaika (3)
+  m_Name: Mossaic Groups4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5248,7 +5248,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -5278,7 +5278,7 @@ GameObject:
   - component: {fileID: 401727940}
   - component: {fileID: 401727941}
   m_Layer: 0
-  m_Name: rogmes (5)
+  m_Name: cracks6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5359,7 +5359,7 @@ GameObject:
   - component: {fileID: 408473529}
   - component: {fileID: 408473530}
   m_Layer: 0
-  m_Name: petresKaiarwmata (9)
+  m_Name: rock10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5440,7 +5440,7 @@ GameObject:
   - component: {fileID: 415478036}
   - component: {fileID: 415478037}
   m_Layer: 0
-  m_Name: rogmes (12)
+  m_Name: cracks13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5520,7 +5520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 426945494}
   m_Layer: 0
-  m_Name: Bloody Stains (3)
+  m_Name: Bloody Stains Group4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5534,7 +5534,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426945493}
   m_LocalRotation: {x: -0, y: -0, z: -0.29758683, w: 0.9546948}
-  m_LocalPosition: {x: -1.23, y: -1.53, z: 0}
+  m_LocalPosition: {x: -1.2300001, y: -1.53, z: 0}
   m_LocalScale: {x: 0.31376, y: 0.51948, z: 1}
   m_Children:
   - {fileID: 664506840}
@@ -5542,8 +5542,8 @@ Transform:
   - {fileID: 1219567089}
   - {fileID: 1306170595}
   - {fileID: 1819698500}
-  m_Father: {fileID: 1267647924}
-  m_RootOrder: 11
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.625}
 --- !u!1001 &433565254
 PrefabInstance:
@@ -5646,7 +5646,7 @@ GameObject:
   - component: {fileID: 439309977}
   - component: {fileID: 439309978}
   m_Layer: 0
-  m_Name: rogmes (3)
+  m_Name: cracks4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5806,7 +5806,7 @@ GameObject:
   - component: {fileID: 450597508}
   - component: {fileID: 450597509}
   m_Layer: 0
-  m_Name: petresKaiarwmata (4)
+  m_Name: rock5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5987,8 +5987,8 @@ Transform:
   m_LocalPosition: {x: -5.355711, y: 1.9539598, z: 0}
   m_LocalScale: {x: 1.591947, y: 1.4772537, z: 1}
   m_Children: []
-  m_Father: {fileID: 1238340032}
-  m_RootOrder: 2
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &470493444
 SpriteRenderer:
@@ -6052,7 +6052,7 @@ GameObject:
   - component: {fileID: 475215505}
   - component: {fileID: 475215506}
   m_Layer: 0
-  m_Name: rogmes (13)
+  m_Name: cracks14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6215,7 +6215,7 @@ GameObject:
   - component: {fileID: 477935565}
   - component: {fileID: 477935566}
   m_Layer: 0
-  m_Name: rogmes (7)
+  m_Name: cracks8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6547,7 +6547,7 @@ GameObject:
   - component: {fileID: 492226305}
   - component: {fileID: 492226306}
   m_Layer: 0
-  m_Name: rogmes (11)
+  m_Name: cracks12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6730,7 +6730,7 @@ GameObject:
   - component: {fileID: 502716729}
   - component: {fileID: 502716730}
   m_Layer: 0
-  m_Name: rogmes (4)
+  m_Name: cracks5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7209,7 +7209,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -7534,7 +7534,7 @@ GameObject:
   - component: {fileID: 552107220}
   - component: {fileID: 552107221}
   m_Layer: 0
-  m_Name: rogmes (3)
+  m_Name: cracks4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7615,7 +7615,7 @@ GameObject:
   - component: {fileID: 563469403}
   - component: {fileID: 563469404}
   m_Layer: 0
-  m_Name: rogmes (3)
+  m_Name: cracks4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7750,7 +7750,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -7780,7 +7780,7 @@ GameObject:
   - component: {fileID: 580904917}
   - component: {fileID: 580904918}
   m_Layer: 0
-  m_Name: petresKaiarwmata (1)
+  m_Name: rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7948,7 +7948,7 @@ GameObject:
   - component: {fileID: 591667723}
   - component: {fileID: 591667724}
   m_Layer: 0
-  m_Name: rogmes (6)
+  m_Name: cracks7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8110,7 +8110,7 @@ GameObject:
   - component: {fileID: 615004494}
   - component: {fileID: 615004495}
   m_Layer: 0
-  m_Name: petresKaiarwmata (8)
+  m_Name: rock9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8416,7 +8416,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -8446,7 +8446,7 @@ GameObject:
   - component: {fileID: 625819096}
   - component: {fileID: 625819097}
   m_Layer: 0
-  m_Name: rogmes (5)
+  m_Name: cracks6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8779,7 +8779,7 @@ GameObject:
   - component: {fileID: 663411809}
   - component: {fileID: 663411810}
   m_Layer: 0
-  m_Name: rogmes (11)
+  m_Name: cracks12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9143,7 +9143,7 @@ GameObject:
   - component: {fileID: 690865768}
   - component: {fileID: 690865769}
   m_Layer: 0
-  m_Name: rogmes (13)
+  m_Name: cracks14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9257,7 +9257,7 @@ Transform:
   - {fileID: 1305293511}
   - {fileID: 282493189}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 14
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &712662291
 PrefabInstance:
@@ -9349,7 +9349,7 @@ GameObject:
   - component: {fileID: 724262438}
   - component: {fileID: 724262439}
   m_Layer: 0
-  m_Name: rogmes (12)
+  m_Name: cracks13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9868,7 +9868,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -9898,7 +9898,7 @@ GameObject:
   - component: {fileID: 782624044}
   - component: {fileID: 782624043}
   m_Layer: 0
-  m_Name: petresKaiarwmata
+  m_Name: rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10174,7 +10174,7 @@ GameObject:
   - component: {fileID: 791105310}
   - component: {fileID: 791105311}
   m_Layer: 0
-  m_Name: rogmes (4)
+  m_Name: cracks5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10441,11 +10441,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804405180}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 2.94, z: 0}
+  m_LocalPosition: {x: -0.19999984, y: 2.9400003, z: 0}
   m_LocalScale: {x: 1.0778246, y: 1.07125, z: 1}
   m_Children: []
-  m_Father: {fileID: 1238340032}
-  m_RootOrder: 3
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &804405182
 SpriteRenderer:
@@ -10538,7 +10538,7 @@ Transform:
   - {fileID: 1025545482}
   - {fileID: 1448131544}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &815307875
 GameObject:
@@ -10551,7 +10551,7 @@ GameObject:
   - component: {fileID: 815307876}
   - component: {fileID: 815307877}
   m_Layer: 0
-  m_Name: rogmes (2)
+  m_Name: cracks3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10908,7 +10908,7 @@ GameObject:
   - component: {fileID: 850901381}
   - component: {fileID: 850901382}
   m_Layer: 0
-  m_Name: rogmes (9)
+  m_Name: cracks10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11102,7 +11102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863544993}
   m_Layer: 0
-  m_Name: Bloody Stains (4)
+  m_Name: Bloody Stains Group5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11124,8 +11124,8 @@ Transform:
   - {fileID: 1297196615}
   - {fileID: 2027589324}
   - {fileID: 1789159288}
-  m_Father: {fileID: 1267647924}
-  m_RootOrder: 12
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.625}
 --- !u!1001 &868069023
 PrefabInstance:
@@ -11182,7 +11182,7 @@ PrefabInstance:
     - target: {fileID: 6230622009747067313, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6230622009747067313, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
         type: 3}
@@ -11441,7 +11441,7 @@ GameObject:
   - component: {fileID: 890436277}
   - component: {fileID: 890436278}
   m_Layer: 0
-  m_Name: rogmes (7)
+  m_Name: cracks8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11576,7 +11576,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -11768,7 +11768,7 @@ GameObject:
   - component: {fileID: 919022213}
   - component: {fileID: 919022214}
   m_Layer: 0
-  m_Name: rogmes
+  m_Name: cracks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12200,7 +12200,7 @@ GameObject:
   - component: {fileID: 946933674}
   - component: {fileID: 946933675}
   m_Layer: 0
-  m_Name: petresKaiarwmata (10)
+  m_Name: rock11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12360,7 +12360,7 @@ GameObject:
   - component: {fileID: 968250771}
   - component: {fileID: 968250772}
   m_Layer: 0
-  m_Name: rogmes
+  m_Name: cracks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12731,169 +12731,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!43 &1008398725
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 18
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0.5, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010000000300020004000000000005000300010006000200030007000100
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 224
-    _typelessdata: 000000bf0000003f0000000000000080000080bf00000000000000800000003f000000bf00000000000000800000803f00000080000000800000003f0000003f00000000000080bf000000800000008000000080000000bf000000bf000000000000803f0000008000000080000000800000003f0000003f0000000000000080000080bf0000000000000080000000bf0000003f000000000000803f0000008000000080000000800000003f000000bf00000000000080bf000000800000008000000080000000bf000000bf00000000000000800000803f0000008000000080
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.5, y: 0.5, z: 0}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1013858324
 GameObject:
   m_ObjectHideFlags: 0
@@ -12905,7 +12742,7 @@ GameObject:
   - component: {fileID: 1013858325}
   - component: {fileID: 1013858326}
   m_Layer: 0
-  m_Name: rogmes (4)
+  m_Name: cracks5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13503,7 +13340,7 @@ GameObject:
   - component: {fileID: 1056072488}
   - component: {fileID: 1056072489}
   m_Layer: 0
-  m_Name: rogmes (2)
+  m_Name: cracks3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13584,7 +13421,7 @@ GameObject:
   - component: {fileID: 1068041983}
   - component: {fileID: 1068041984}
   m_Layer: 0
-  m_Name: rogmes (13)
+  m_Name: cracks14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13754,7 +13591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1073590483}
   m_Layer: 0
-  m_Name: Bloody Stains (1)
+  m_Name: Bloody Stains Group2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13768,7 +13605,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073590482}
   m_LocalRotation: {x: -0, y: -0, z: -0.29758683, w: 0.9546948}
-  m_LocalPosition: {x: 6.62, y: -2.2, z: 0}
+  m_LocalPosition: {x: 6.6200004, y: -2.2, z: 0}
   m_LocalScale: {x: 0.31376, y: 0.51948, z: 1}
   m_Children:
   - {fileID: 92202792}
@@ -13776,8 +13613,8 @@ Transform:
   - {fileID: 2010903227}
   - {fileID: 1028580181}
   - {fileID: 1760036346}
-  m_Father: {fileID: 1267647924}
-  m_RootOrder: 9
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.625}
 --- !u!1 &1078389617
 GameObject:
@@ -13790,7 +13627,7 @@ GameObject:
   - component: {fileID: 1078389618}
   - component: {fileID: 1078389619}
   m_Layer: 0
-  m_Name: rogmes (6)
+  m_Name: cracks7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13871,7 +13708,7 @@ GameObject:
   - component: {fileID: 1082545004}
   - component: {fileID: 1082545005}
   m_Layer: 0
-  m_Name: rogmes (8)
+  m_Name: cracks9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13952,7 +13789,7 @@ GameObject:
   - component: {fileID: 1093405169}
   - component: {fileID: 1093405170}
   m_Layer: 0
-  m_Name: rogmes (5)
+  m_Name: cracks6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14033,7 +13870,7 @@ GameObject:
   - component: {fileID: 1096338021}
   - component: {fileID: 1096338022}
   m_Layer: 0
-  m_Name: petresKaiarwmata (6)
+  m_Name: rock7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14195,7 +14032,7 @@ GameObject:
   - component: {fileID: 1109138157}
   - component: {fileID: 1109138158}
   m_Layer: 0
-  m_Name: rogmes (3)
+  m_Name: cracks4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14318,8 +14155,9 @@ Transform:
   - {fileID: 33257527}
   - {fileID: 2046545654}
   - {fileID: 1128788048}
+  - {fileID: 1850509535}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1110836080
 MonoBehaviour:
@@ -14360,7 +14198,7 @@ GameObject:
   - component: {fileID: 1112175146}
   - component: {fileID: 1112175147}
   m_Layer: 0
-  m_Name: rogmes (7)
+  m_Name: cracks8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14689,7 +14527,7 @@ GameObject:
   - component: {fileID: 1119918416}
   - component: {fileID: 1119918417}
   m_Layer: 0
-  m_Name: rogmes (5)
+  m_Name: cracks6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14953,7 +14791,7 @@ GameObject:
   - component: {fileID: 1155437471}
   - component: {fileID: 1155437472}
   m_Layer: 0
-  m_Name: rogmes (8)
+  m_Name: cracks9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15033,7 +14871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158356267}
   m_Layer: 0
-  m_Name: Cracks (1)
+  m_Name: cracks group 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15077,7 +14915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158616877}
   m_Layer: 0
-  m_Name: AnatrixiastikaMosaika (4)
+  m_Name: Mossaic Groups5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15194,7 +15032,7 @@ GameObject:
   - component: {fileID: 1165710169}
   - component: {fileID: 1165710170}
   m_Layer: 0
-  m_Name: rogmes (7)
+  m_Name: cracks8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15308,7 +15146,7 @@ GameObject:
   - component: {fileID: 1171914606}
   - component: {fileID: 1171914607}
   m_Layer: 0
-  m_Name: rogmes (10)
+  m_Name: cracks11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15389,7 +15227,7 @@ GameObject:
   - component: {fileID: 1179311678}
   - component: {fileID: 1179311679}
   m_Layer: 0
-  m_Name: rogmes (10)
+  m_Name: cracks11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15470,7 +15308,7 @@ GameObject:
   - component: {fileID: 1186741607}
   - component: {fileID: 1186741608}
   m_Layer: 0
-  m_Name: petresKaiarwmata (5)
+  m_Name: rock6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16004,7 +15842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238340032}
   m_Layer: 0
-  m_Name: Bloody Stains
+  m_Name: Bloody Stains Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16017,17 +15855,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238340031}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 35856262}
-  - {fileID: 1350862037}
-  - {fileID: 470493443}
-  - {fileID: 804405181}
-  - {fileID: 1639311277}
-  m_Father: {fileID: 1267647924}
-  m_RootOrder: 8
+  m_Children: []
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1241646126
 PrefabInstance:
@@ -16130,7 +15963,7 @@ GameObject:
   - component: {fileID: 1243964638}
   - component: {fileID: 1243964639}
   m_Layer: 0
-  m_Name: rogmes (11)
+  m_Name: cracks12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16211,7 +16044,7 @@ GameObject:
   - component: {fileID: 1251116366}
   - component: {fileID: 1251116367}
   m_Layer: 0
-  m_Name: rogmes (10)
+  m_Name: cracks11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16292,7 +16125,7 @@ GameObject:
   - component: {fileID: 1253286141}
   - component: {fileID: 1253286142}
   m_Layer: 0
-  m_Name: rogmes (13)
+  m_Name: cracks14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16393,16 +16226,11 @@ Transform:
   - {fileID: 1370303697}
   - {fileID: 1703901592}
   - {fileID: 453739192}
-  - {fileID: 1850509535}
   - {fileID: 1110836078}
   - {fileID: 805205880}
   - {fileID: 1856488948}
   - {fileID: 8311426600931763313}
-  - {fileID: 1238340032}
-  - {fileID: 1073590483}
-  - {fileID: 1855422366}
-  - {fileID: 426945494}
-  - {fileID: 863544993}
+  - {fileID: 1887648002}
   - {fileID: 1885031646}
   - {fileID: 712493584}
   m_Father: {fileID: 1807821193}
@@ -16589,7 +16417,7 @@ GameObject:
   - component: {fileID: 1282211594}
   - component: {fileID: 1282211595}
   m_Layer: 0
-  m_Name: rogmes (12)
+  m_Name: cracks13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16669,7 +16497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1291941357}
   m_Layer: 0
-  m_Name: AnatrixiastikaMosaika (1)
+  m_Name: Mossaic Groups2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16976,7 +16804,7 @@ GameObject:
   - component: {fileID: 1305293511}
   - component: {fileID: 1305293512}
   m_Layer: 0
-  m_Name: petresKaiarwmata (14)
+  m_Name: rock15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17395,7 +17223,7 @@ GameObject:
   - component: {fileID: 1327755834}
   - component: {fileID: 1327755835}
   m_Layer: 0
-  m_Name: rogmes (5)
+  m_Name: cracks6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17805,7 +17633,7 @@ GameObject:
   - component: {fileID: 1342896403}
   - component: {fileID: 1342896404}
   m_Layer: 0
-  m_Name: rogmes (6)
+  m_Name: cracks7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17973,7 +17801,7 @@ GameObject:
   - component: {fileID: 1345845668}
   - component: {fileID: 1345845669}
   m_Layer: 0
-  m_Name: rogmes (3)
+  m_Name: cracks4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18152,8 +17980,8 @@ Transform:
   m_LocalPosition: {x: -1.593025, y: -2.6974075, z: 0}
   m_LocalScale: {x: 1.0778246, y: 1.07125, z: 1}
   m_Children: []
-  m_Father: {fileID: 1238340032}
-  m_RootOrder: 1
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1350862038
 SpriteRenderer:
@@ -18462,7 +18290,7 @@ GameObject:
   - component: {fileID: 1370303697}
   - component: {fileID: 1370303698}
   m_Layer: 0
-  m_Name: Porta
+  m_Name: Port
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18577,7 +18405,7 @@ GameObject:
   - component: {fileID: 1376874077}
   - component: {fileID: 1376874078}
   m_Layer: 0
-  m_Name: rogmes (2)
+  m_Name: cracks3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18658,7 +18486,7 @@ GameObject:
   - component: {fileID: 1381194503}
   - component: {fileID: 1381194504}
   m_Layer: 0
-  m_Name: rogmes (13)
+  m_Name: cracks14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18738,7 +18566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1386829466}
   m_Layer: 0
-  m_Name: Cracks (3)
+  m_Name: Cracks group  4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18980,7 +18808,7 @@ GameObject:
   - component: {fileID: 1399726343}
   - component: {fileID: 1399726344}
   m_Layer: 0
-  m_Name: rogmes (9)
+  m_Name: cracks10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19095,7 +18923,7 @@ GameObject:
   - component: {fileID: 1403290475}
   - component: {fileID: 1403290476}
   m_Layer: 0
-  m_Name: rogmes (9)
+  m_Name: cracks10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19338,7 +19166,7 @@ GameObject:
   - component: {fileID: 1429791104}
   - component: {fileID: 1429791105}
   m_Layer: 0
-  m_Name: rogmes (11)
+  m_Name: cracks12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19418,7 +19246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1439011919}
   m_Layer: 0
-  m_Name: AnatrixiastikaMosaika (6)
+  m_Name: Mossaic Groups7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19536,7 +19364,7 @@ GameObject:
   - component: {fileID: 1446243646}
   - component: {fileID: 1446243647}
   m_Layer: 0
-  m_Name: rogmes (1)
+  m_Name: cracks2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19903,6 +19731,169 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1466649895}
   m_PrefabAsset: {fileID: 0}
+--- !u!43 &1466709630
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 18
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.5, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010000000300020004000000000005000300010006000200030007000100
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 224
+    _typelessdata: 000000bf0000003f0000000000000080000080bf00000000000000800000003f000000bf00000000000000800000803f00000080000000800000003f0000003f00000000000080bf000000800000008000000080000000bf000000bf000000000000803f0000008000000080000000800000003f0000003f0000000000000080000080bf0000000000000080000000bf0000003f000000000000803f0000008000000080000000800000003f000000bf00000000000080bf000000800000008000000080000000bf000000bf00000000000000800000803f0000008000000080
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.5, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1481529387
 GameObject:
   m_ObjectHideFlags: 0
@@ -19913,7 +19904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1481529388}
   m_Layer: 0
-  m_Name: Cracks (2)
+  m_Name: Cracks group 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19964,7 +19955,7 @@ GameObject:
   - component: {fileID: 1489481560}
   - component: {fileID: 1489481561}
   m_Layer: 0
-  m_Name: petresKaiarwmata (13)
+  m_Name: rock14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20400,7 +20391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508568636}
   m_Layer: 0
-  m_Name: Cracks (4)
+  m_Name: Cracks group 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20445,7 +20436,7 @@ GameObject:
   - component: {fileID: 1516805543}
   - component: {fileID: 1516805544}
   m_Layer: 0
-  m_Name: rogmes (2)
+  m_Name: cracks3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20607,7 +20598,7 @@ GameObject:
   - component: {fileID: 1529240452}
   - component: {fileID: 1529240453}
   m_Layer: 0
-  m_Name: rogmes (7)
+  m_Name: cracks8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20688,7 +20679,7 @@ GameObject:
   - component: {fileID: 1533758640}
   - component: {fileID: 1533758641}
   m_Layer: 0
-  m_Name: rogmes (10)
+  m_Name: cracks11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20769,7 +20760,7 @@ GameObject:
   - component: {fileID: 1559841710}
   - component: {fileID: 1559841711}
   m_Layer: 0
-  m_Name: rogmes (6)
+  m_Name: cracks7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21093,7 +21084,7 @@ GameObject:
   - component: {fileID: 1575073554}
   - component: {fileID: 1575073555}
   m_Layer: 0
-  m_Name: rogmes (11)
+  m_Name: cracks12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21389,7 +21380,7 @@ PrefabInstance:
     - target: {fileID: 6230622009747067313, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6230622009747067313, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
         type: 3}
@@ -21598,7 +21589,7 @@ GameObject:
   - component: {fileID: 1592981925}
   - component: {fileID: 1592981926}
   m_Layer: 0
-  m_Name: rogmes (8)
+  m_Name: cracks9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21679,7 +21670,7 @@ GameObject:
   - component: {fileID: 1614365510}
   - component: {fileID: 1614365511}
   m_Layer: 0
-  m_Name: rogmes (8)
+  m_Name: cracks9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21920,7 +21911,7 @@ GameObject:
   - component: {fileID: 1625662393}
   - component: {fileID: 1625662394}
   m_Layer: 0
-  m_Name: rogmes (5)
+  m_Name: cracks6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22178,11 +22169,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639311276}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7, y: -2.31, z: 0}
+  m_LocalPosition: {x: -7, y: -2.3099997, z: 0}
   m_LocalScale: {x: 1.0778246, y: 1.07125, z: 1}
   m_Children: []
-  m_Father: {fileID: 1238340032}
-  m_RootOrder: 4
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1639311278
 SpriteRenderer:
@@ -22531,7 +22522,7 @@ GameObject:
   - component: {fileID: 1654612909}
   - component: {fileID: 1654612910}
   m_Layer: 0
-  m_Name: rogmes
+  m_Name: cracks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22897,7 +22888,7 @@ PrefabInstance:
     - target: {fileID: 6230622009747067313, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6230622009747067313, guid: 17bc27a94e33f4b4c9f09c0f0ed8fdac,
         type: 3}
@@ -23135,7 +23126,7 @@ GameObject:
   - component: {fileID: 1705970763}
   - component: {fileID: 1705970764}
   m_Layer: 0
-  m_Name: rogmes (10)
+  m_Name: cracks11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23387,7 +23378,7 @@ GameObject:
   - component: {fileID: 1714139697}
   - component: {fileID: 1714139698}
   m_Layer: 0
-  m_Name: petresKaiarwmata (11)
+  m_Name: rock12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23645,7 +23636,7 @@ GameObject:
   - component: {fileID: 1730447771}
   - component: {fileID: 1730447772}
   m_Layer: 0
-  m_Name: petresKaiarwmata (3)
+  m_Name: rock4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23896,7 +23887,7 @@ GameObject:
   - component: {fileID: 1762276145}
   - component: {fileID: 1762276146}
   m_Layer: 0
-  m_Name: rogmes (8)
+  m_Name: cracks9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23977,7 +23968,7 @@ GameObject:
   - component: {fileID: 1763778933}
   - component: {fileID: 1763778934}
   m_Layer: 0
-  m_Name: rogmes (3)
+  m_Name: cracks4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24369,7 +24360,7 @@ GameObject:
   - component: {fileID: 1785353586}
   - component: {fileID: 1785353587}
   m_Layer: 0
-  m_Name: rogmes
+  m_Name: cracks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24532,7 +24523,7 @@ GameObject:
   - component: {fileID: 1794242872}
   - component: {fileID: 1794242873}
   m_Layer: 0
-  m_Name: rogmes (7)
+  m_Name: cracks8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24694,7 +24685,7 @@ GameObject:
   - component: {fileID: 1807552957}
   - component: {fileID: 1807552958}
   m_Layer: 0
-  m_Name: rogmes (1)
+  m_Name: cracks2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25262,7 +25253,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -25297,7 +25288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855422366}
   m_Layer: 0
-  m_Name: Bloody Stains (2)
+  m_Name: Bloody Stains Group3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25311,7 +25302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855422365}
   m_LocalRotation: {x: -0, y: -0, z: -0.29758683, w: 0.9546948}
-  m_LocalPosition: {x: 1.63, y: 1.23, z: 0}
+  m_LocalPosition: {x: 1.6300004, y: 1.23, z: 0}
   m_LocalScale: {x: 0.31376, y: 0.51948, z: 1}
   m_Children:
   - {fileID: 686856718}
@@ -25319,8 +25310,8 @@ Transform:
   - {fileID: 476004062}
   - {fileID: 369651695}
   - {fileID: 799467337}
-  m_Father: {fileID: 1267647924}
-  m_RootOrder: 10
+  m_Father: {fileID: 1887648002}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.625}
 --- !u!1 &1856488947
 GameObject:
@@ -25369,7 +25360,7 @@ Transform:
   - {fileID: 1508568636}
   - {fileID: 2124591073}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1867397421
 GameObject:
@@ -25381,7 +25372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1867397422}
   m_Layer: 0
-  m_Name: AnatrixiastikaMosaika (5)
+  m_Name: Mossaic Groups6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25507,7 +25498,7 @@ GameObject:
   - component: {fileID: 1880646272}
   - component: {fileID: 1880646273}
   m_Layer: 0
-  m_Name: rogmes (13)
+  m_Name: cracks14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25588,7 +25579,7 @@ GameObject:
   - component: {fileID: 1882273020}
   - component: {fileID: 1882273021}
   m_Layer: 0
-  m_Name: rogmes
+  m_Name: cracks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25668,7 +25659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885031646}
   m_Layer: 0
-  m_Name: MosaikaToyTromou
+  m_Name: Mossaics of Terror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25693,7 +25684,47 @@ Transform:
   - {fileID: 1867397422}
   - {fileID: 1439011919}
   m_Father: {fileID: 1267647924}
-  m_RootOrder: 13
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1887648001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1887648002}
+  m_Layer: 0
+  m_Name: Bloody Stains Groups
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1887648002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887648001}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1238340032}
+  - {fileID: 35856262}
+  - {fileID: 1350862037}
+  - {fileID: 470493443}
+  - {fileID: 804405181}
+  - {fileID: 1639311277}
+  - {fileID: 1073590483}
+  - {fileID: 1855422366}
+  - {fileID: 426945494}
+  - {fileID: 863544993}
+  m_Father: {fileID: 1267647924}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1894800103
 GameObject:
@@ -25787,7 +25818,7 @@ GameObject:
   - component: {fileID: 1903126757}
   - component: {fileID: 1903126758}
   m_Layer: 0
-  m_Name: daulos
+  m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25922,7 +25953,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -26041,7 +26072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1907269473}
   m_Layer: 0
-  m_Name: AnatrixiastikaMosaika
+  m_Name: Mossaic Groups
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26246,7 +26277,7 @@ GameObject:
   - component: {fileID: 1912804582}
   - component: {fileID: 1912804583}
   m_Layer: 0
-  m_Name: rogmes (9)
+  m_Name: cracks10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26462,7 +26493,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -26606,7 +26637,7 @@ GameObject:
   - component: {fileID: 1941377291}
   - component: {fileID: 1941377292}
   m_Layer: 0
-  m_Name: rogmes (1)
+  m_Name: cracks2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26699,13 +26730,14 @@ GameObject:
   - component: {fileID: 1948522799}
   - component: {fileID: 1948522798}
   - component: {fileID: 1948522800}
+  - component: {fileID: 1948522801}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1948522798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26773,6 +26805,30 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1389022991}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!114 &1948522801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948522797}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53258ad9ad6e71e48bb8643c9522112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExcludedPropertiesInInspector:
+  - m_Script
+  m_LockStageInInspector: 
+  m_StreamingVersion: 20170927
+  m_Priority: 10
+  m_StandbyUpdate: 2
+  m_LookAt: {fileID: 0}
+  m_Follow: {fileID: 0}
+  m_ShowDebugText: 0
+  m_Loop: 0
+  m_ChildCameras: []
+  m_Instructions: []
 --- !u!1001 &1960163054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26838,7 +26894,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -26867,7 +26923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1973477876}
   m_Layer: 0
-  m_Name: AnatrixiastikaMosaika (2)
+  m_Name: Mossaic Groups3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27977,7 +28033,7 @@ GameObject:
   - component: {fileID: 2047207169}
   - component: {fileID: 2047207170}
   m_Layer: 0
-  m_Name: rogmes (12)
+  m_Name: cracks13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28139,7 +28195,7 @@ GameObject:
   - component: {fileID: 2054138422}
   - component: {fileID: 2054138423}
   m_Layer: 0
-  m_Name: rogmes (1)
+  m_Name: cracks2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28334,7 +28390,7 @@ GameObject:
   - component: {fileID: 2061674195}
   - component: {fileID: 2061674196}
   m_Layer: 0
-  m_Name: rogmes (9)
+  m_Name: cracks10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28913,7 +28969,7 @@ PrefabInstance:
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 941057187395241023, guid: 8240bc6aa3db9584e9d937e2874294fa,
         type: 3}
@@ -28942,7 +28998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2124591073}
   m_Layer: 0
-  m_Name: Cracks (5)
+  m_Name: Cracks group 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28987,7 +29043,7 @@ GameObject:
   - component: {fileID: 2125271830}
   - component: {fileID: 2125271831}
   m_Layer: 0
-  m_Name: rogmes (11)
+  m_Name: cracks12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29506,7 +29562,7 @@ GameObject:
   - component: {fileID: 2142625178}
   - component: {fileID: 2142625179}
   m_Layer: 0
-  m_Name: rogmes (12)
+  m_Name: cracks13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29581,37 +29637,37 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1267647924}
+    m_TransformParent: {fileID: 1110836078}
     m_Modifications:
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.21
+      value: 0.22531126
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.13081
+      value: -2.4654167
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 7.511563
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
@@ -29621,7 +29677,7 @@ PrefabInstance:
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
@@ -29641,12 +29697,12 @@ PrefabInstance:
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.39
+      value: 0.36183995
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854442, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.31
+      value: 0.2893816
       objectReference: {fileID: 0}
     - target: {fileID: 2655750301274854443, guid: ba955928ddf463345b100ef3a6531dfd,
         type: 3}
@@ -29948,7 +30004,7 @@ PrefabInstance:
     - target: {fileID: 4650310678524268446, guid: 0950bc001d7373546923b59724b0bbdc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8311426600641151211, guid: 0950bc001d7373546923b59724b0bbdc,
         type: 3}
