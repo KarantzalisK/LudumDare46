@@ -1,7 +1,97 @@
 fileFormatVersion: 2
 guid: 447f804ad22a96c4993c57ee5c4843c3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4534604349266675543
+    second: daulito_0
+  - first:
+      213: 2246098551936460283
+    second: daulito_1
+  - first:
+      213: -8305716055950945238
+    second: daulito_2
+  - first:
+      213: 6848853608624556165
+    second: daulito_3
+  - first:
+      213: 2709519114049191618
+    second: daulito_4
+  - first:
+      213: 5758021596775144510
+    second: daulito_5
+  - first:
+      213: -4778788897828140702
+    second: daulito_6
+  - first:
+      213: -4183082499412130930
+    second: daulito_7
+  - first:
+      213: -83127456345261290
+    second: daulito_8
+  - first:
+      213: -4228048617838965976
+    second: daulito_9
+  - first:
+      213: 4945667241944939576
+    second: daulito_10
+  - first:
+      213: -3863824367632869004
+    second: daulito_11
+  - first:
+      213: 3407698266666398898
+    second: daulito_12
+  - first:
+      213: -9079386617264585768
+    second: daulito_13
+  - first:
+      213: 8092102401541744848
+    second: daulito_14
+  - first:
+      213: 6761927083092096044
+    second: daulito_15
+  - first:
+      213: -1856458342636692485
+    second: daulito_16
+  - first:
+      213: -5067202473519216935
+    second: daulito_17
+  - first:
+      213: -4215491184453313603
+    second: daulito_18
+  - first:
+      213: -6850429598259497385
+    second: daulito_19
+  - first:
+      213: -6927367839135414484
+    second: daulito_20
+  - first:
+      213: -6773221019169488067
+    second: daulito_21
+  - first:
+      213: -8402951872599584564
+    second: daulito_22
+  - first:
+      213: 2653878304636531579
+    second: daulito_23
+  - first:
+      213: 6956462233309296706
+    second: daulito_24
+  - first:
+      213: 1980590636716488819
+    second: daulito_25
+  - first:
+      213: 8349675630247564824
+    second: daulito_26
+  - first:
+      213: -779145810098174847
+    second: daulito_27
+  - first:
+      213: -6755212234032733936
+    second: daulito_28
+  - first:
+      213: -1260278417282763299
+    second: daulito_29
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,9 +130,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -71,9 +161,687 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: daulito_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1740
+        width: 12
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7574bfa51a62eee30800000000000000
+      internalID: 4534604349266675543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1682
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf521be8bbebb2f10800000000000000
+      internalID: 2246098551936460283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1625
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2419cfa04b2cbc80800000000000000
+      internalID: -8305716055950945238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1567
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58808bcf1140c0f50800000000000000
+      internalID: 6848853608624556165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1510
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce780157452a9520800000000000000
+      internalID: 2709519114049191618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1452
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c5fcc822a98ef40800000000000000
+      internalID: 5758021596775144510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1395
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2698f5801d45eadb0800000000000000
+      internalID: -4778788897828140702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1337
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83036431a4b2f5c0800000000000000
+      internalID: -4183082499412130930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1280
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b7575d40ca8def0800000000000000
+      internalID: -83127456345261290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1222
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b80a8ee24f255c0800000000000000
+      internalID: -4228048617838965976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1165
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cf96d372a82a440800000000000000
+      internalID: 4945667241944939576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1108
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4799eb48530f06ac0800000000000000
+      internalID: -3863824367632869004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1050
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b47d5ec4839a4f20800000000000000
+      internalID: 3407698266666398898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 993
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3428be9f98ff180800000000000000
+      internalID: -9079386617264585768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 935
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d82bf9a24cec4070800000000000000
+      internalID: 8092102401541744848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 878
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c243cc81bd037dd50800000000000000
+      internalID: 6761927083092096044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 822
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb54da29f88c36e0800000000000000
+      internalID: -1856458342636692485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 763
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d608e0923eada9b0800000000000000
+      internalID: -5067202473519216935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 701
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb9ed43a119f75c0800000000000000
+      internalID: -4215491184453313603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 638
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756bbe453926ee0a0800000000000000
+      internalID: -6850429598259497385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 576
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c274edf27ab0ddf90800000000000000
+      internalID: -6927367839135414484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 514
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33813f7e5fa002a0800000000000000
+      internalID: -6773221019169488067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 453
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc09ff8eac7b26b80800000000000000
+      internalID: -8402951872599584564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 393
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73f9f8d14874d420800000000000000
+      internalID: 2653878304636531579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 333
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24832d55b815a8060800000000000000
+      internalID: 6956462233309296706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 269
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37873f2c0b87c7b10800000000000000
+      internalID: 1980590636716488819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 203
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81654aa4fb100e370800000000000000
+      internalID: 8349675630247564824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 138
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1844dd8830bef25f0800000000000000
+      internalID: -779145810098174847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 72
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0112b18834aa042a0800000000000000
+      internalID: -6755212234032733936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daulito_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5f4cbe477928ee0800000000000000
+      internalID: -1260278417282763299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
