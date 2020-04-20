@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 	public GameObject torch;
-	public float speed = 2f;
-
+    public float speed = 2f, timer =0f;
+    public GameObject positionSetObj;
 	public float arrowForce = 3f;
 
 	Vector3 arrowRotation;
@@ -24,18 +24,21 @@ public class PlayerMovement : MonoBehaviour
 	void Start()
     {
 		rb = GetComponent<Rigidbody2D>();
-		//sr = GetComponent<SpriteRenderer>();
-	}
+        //sr = GetComponent<SpriteRenderer>();
+
+    }
 
     // Update is called once per frame
     void Update()
     {
+        timer = timer + Time.fixedDeltaTime;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-		if (Input.GetButtonDown("Fire1") && !carryFire)
+		if (Input.GetButtonDown("Fire1") && !carryFire && timer>=2f)
 		{
 			shoot();
+            timer = 0f;
 		}
 
 		if (readyToCarryFire && Input.GetKeyDown(KeyCode.Space)) {
@@ -44,9 +47,10 @@ public class PlayerMovement : MonoBehaviour
 		}
 
 		if (carryFire) {
-			torch.GetComponent<Transform>().position = gameObject.transform.position;
+            torch.GetComponent<Transform>().position = positionSetObj.GetComponent<Transform>().position;
 
-		}
+
+        }
 
 
 

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082449782726273007}
   - component: {fileID: 1082449782726273006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082449782971781425}
   - component: {fileID: 1082449782971781424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082449783943675619}
   - component: {fileID: 1082449783943675618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082449784154173879}
   - component: {fileID: 1082449784154173878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls1.0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
