@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 2f, timer =0f;
     public GameObject positionSetObj;
 	public float arrowForce = 3f;
+    public Text txtInformative;
+    private string infoOfreloading= "Reloading...";
 
 	Vector3 arrowRotation;
 
@@ -17,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
 	Vector2 movement;
 
 	public GameObject arrowPrefab;
-
+    bool textCountdown=false;
 	bool carryFire=false;
 	bool readyToCarryFire=false;
 	// Start is called before the first frame update
@@ -34,11 +37,19 @@ public class PlayerMovement : MonoBehaviour
         timer = timer + Time.fixedDeltaTime;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-
-		if (Input.GetButtonDown("Fire1") && !carryFire && timer>=2f)
+        if (textCountdown)
+        {
+            txtInformative.text = infoOfreloading + (2 - timer).ToString();
+            if (timer >= 2f)
+            {
+                txtInformative.text = "";
+            }
+        }
+        if (Input.GetButtonDown("Fire1") && !carryFire && timer>=2f)
 		{
 			shoot();
             timer = 0f;
+            textCountdown = true;
 		}
 
 		if (readyToCarryFire && Input.GetKeyDown(KeyCode.Space)) {
