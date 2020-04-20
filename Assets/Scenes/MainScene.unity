@@ -26730,14 +26730,13 @@ GameObject:
   - component: {fileID: 1948522799}
   - component: {fileID: 1948522798}
   - component: {fileID: 1948522800}
-  - component: {fileID: 1948522801}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1948522798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26805,30 +26804,6 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1389022991}
   m_ConfineScreenEdges: 1
   m_Damping: 0
---- !u!114 &1948522801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948522797}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53258ad9ad6e71e48bb8643c9522112e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ExcludedPropertiesInInspector:
-  - m_Script
-  m_LockStageInInspector: 
-  m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
-  m_ShowDebugText: 0
-  m_Loop: 0
-  m_ChildCameras: []
-  m_Instructions: []
 --- !u!1001 &1960163054
 PrefabInstance:
   m_ObjectHideFlags: 0
