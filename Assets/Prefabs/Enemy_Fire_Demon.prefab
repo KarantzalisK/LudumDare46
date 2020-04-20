@@ -58,7 +58,8 @@ MonoBehaviour:
     type: 3}
   attackOffset: {x: 0, y: 0, z: 0}
   fireBallSpeed: 2
-  health: 3
+  health: 1
+  reloadTime: 1.2
 --- !u!212 &9219678424128097105
 SpriteRenderer:
   m_ObjectHideFlags: 0

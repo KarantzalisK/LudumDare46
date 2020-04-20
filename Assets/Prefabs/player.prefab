@@ -109,6 +109,7 @@ MonoBehaviour:
   cam: {fileID: 0}
   arrowPrefab: {fileID: 6250053089887603524, guid: e50754d9b227af744bc495646a3d0d9d,
     type: 3}
+  reloadTime: 0.5
 --- !u!50 &4734284618692455406
 Rigidbody2D:
   serializedVersion: 4
