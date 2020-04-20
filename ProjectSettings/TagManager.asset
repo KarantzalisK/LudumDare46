@@ -6,6 +6,7 @@ TagManager:
   tags:
   - torch
   - player
+  - arrow
   layers:
   - Default
   - TransparentFX
