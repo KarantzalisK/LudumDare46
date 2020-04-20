@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
                 txtInformative.text = "";
             }
         }
-        if (Input.GetButtonDown("Fire1") && !carryFire && timer>=2f)
+        if ((Input.GetButtonDown("Fire1") || Input.GetKey(KeyCode.Space) )&& !carryFire && timer>=2f )
 		{
 			shoot();
             timer = 0f;
