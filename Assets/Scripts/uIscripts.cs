@@ -24,9 +24,9 @@ public class uIscripts : MonoBehaviour
         }
       
     }
-    public void LoadingScenes()
+    public void LoadingScenes(string sceneName)
     {
-        SceneManager.LoadScene("sceneName");
+        SceneManager.LoadScene(sceneName);
     }
     public void SceneQuiting()
     {
