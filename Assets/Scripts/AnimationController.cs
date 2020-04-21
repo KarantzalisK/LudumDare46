@@ -12,10 +12,14 @@ public class AnimationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
+    }
+    public void Awake() {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        sb= gameObject.GetComponent<SpriteRenderer>();
+        sb = gameObject.GetComponent<SpriteRenderer>();
         currentPosition = rb.position;
         previousPosition = rb.position;
+
     }
 
     // Update is called once per frame

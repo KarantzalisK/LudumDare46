@@ -47,12 +47,16 @@ public class PlayerMovement : MonoBehaviour
 
 	}
 
+	public void Awake()
+	{
+		rb = GetComponent<Rigidbody2D>();
+
+	}
 
 
 	// Start is called before the first frame update
 	void Start()
     {
-		rb = GetComponent<Rigidbody2D>();
 
     }
 
@@ -63,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
 
-        if (Input.GetButtonDown("Fire1") && !carryFire && !reloading)
+        if (Input.GetKeyDown(KeyCode.Space) && !carryFire && !reloading)
 		{
 			StartCoroutine("shootCountdown");
 		}

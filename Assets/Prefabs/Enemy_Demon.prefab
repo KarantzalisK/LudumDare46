@@ -53,8 +53,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRanged: 0
   playerInstance: {fileID: 0}
-  chaseDistance: 5
-  fireDistance: 2.5
+  chaseDistanceX: 2
+  chaseDistanceY: 1.5
+  rangeAttackDistance: 2.5
+  meleeAttackDistance: 0.5
+  doesDamage: 1
   fireBallPrefab: {fileID: 0}
   attackOffset: {x: 0, y: 0, z: 0}
   fireBallSpeed: 2

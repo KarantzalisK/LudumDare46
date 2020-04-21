@@ -12,8 +12,9 @@ public class EnemyAIzombiesAnimations : MonoBehaviour
     private GameObject player;
 
     public bool flip;
-    // Start is called before the first frame update
-    void Start()
+
+
+    public void Awake()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         sb = gameObject.GetComponent<SpriteRenderer>();
@@ -21,6 +22,12 @@ public class EnemyAIzombiesAnimations : MonoBehaviour
         previousPosition = rb.position;
         player = gameObject.GetComponent<Enemy>().playerInstance;
         rbplayer = player.GetComponent<Rigidbody2D>();
+
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
     }
 
     // Update is called once per frame
