@@ -33,10 +33,11 @@ public class uIscripts : MonoBehaviour
     }
     public void LoadingScenes(string sceneName)
     {
-        //SceneManager.LoadScene(sceneName);
-        Destroy(GameObject.Find("Game"));
-        Instantiate(gamePrefab);
-        pauseMenu = GameObject.Find("PauseMenu");
+        Time.timeScale = 1;
+        SceneManager.LoadScene(sceneName);
+       // Destroy(GameObject.Find("Game"));
+       // Instantiate(gamePrefab);
+        //pauseMenu = GameObject.Find("PauseMenu");
 
     }
     public void SceneQuiting()
