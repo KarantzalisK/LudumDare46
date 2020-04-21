@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 2f, timer =0f;
     public GameObject positionSetObj;
 	public float arrowForce = 3f;
-    public Text txtInformative;
     public GameObject deathPanel;
 
 	Vector3 arrowRotation;

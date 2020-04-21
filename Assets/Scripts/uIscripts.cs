@@ -31,11 +31,12 @@ public class uIscripts : MonoBehaviour
     }
     public void LoadingScenes(string sceneName)
     {
-        SceneManager.UnloadScene(sceneName);
-        SceneManager.LoadScene(sceneName);
+        //SceneManager.UnloadSceneAsync(sceneName);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void SceneQuiting()
     {
+        //SceneManager.UnloadSceneAsync(sceneName);
         Application.Quit();
     }
     
