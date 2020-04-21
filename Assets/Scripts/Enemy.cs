@@ -10,8 +10,15 @@ public class Enemy : MonoBehaviour
 
 
     public GameObject playerInstance;
-    public float chaseDistance = 1;
-    public float fireDistance = 2.5f;
+    public float chaseDistanceX = 1;
+    public float chaseDistanceY = 1;
+
+
+    public float rangeAttackDistance = 2.5f;
+    public float meleeAttackDistance = 0.5f;
+
+    public int doesDamage = 1;
+
 
     public GameObject fireBallPrefab;
 
@@ -35,7 +42,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         if (health == 0) Die();
-        if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= chaseDistance )
+        if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= chaseDistanceX && Mathf.Abs(transform.position.y - playerInstance.transform.position.y) <= chaseDistanceY)
         {
             gameObject.GetComponent<Pathfinding.AIPath>().maxSpeed = 1;
         }
@@ -62,9 +69,18 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= fireDistance && isRanged &&!reloading)
+        if (isRanged)
         {
-            StartCoroutine("shootFireballCountdown");
+            if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= rangeAttackDistance && !reloading)
+            {
+                StartCoroutine("shootFireballCountdown");
+            }
+        }
+        else {
+            if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= rangeAttackDistance && !reloading)
+            {
+                
+            }
         }
 
     }
@@ -109,4 +125,16 @@ public class Enemy : MonoBehaviour
         reloading = false;
 
     }
+
+    IEnumerator meleeAttackCountdown()
+    {
+        
+        reloading = true;
+        playerInstance.GetComponent<PlayerMovement>().receiveDamage(doesDamage);
+        yield return new WaitForSeconds(reloadTime);
+        reloading = false;
+
+    }
+
+
 }

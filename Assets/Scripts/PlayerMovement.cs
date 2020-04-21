@@ -23,7 +23,25 @@ public class PlayerMovement : MonoBehaviour
 	bool readyToCarryFire=false;
 
 	bool reloading = false;
-	public float reloadTime = 0.25f; 
+	public float reloadTime = 0.25f;
+
+	public int healthPoints = 3;
+
+
+	public void receiveDamage(int amount) {
+		healthPoints -= amount;
+		if (healthPoints <= 0){
+			playerDie();
+		}
+	}
+
+	public void playerDie() {
+
+		gameObject.GetComponent<SpriteRenderer>().enabled = false;
+		gameObject.GetComponent<BoxCollider2D>().enabled = false;
+		//Draw A Panel Here
+
+	}
 
 
 	// Start is called before the first frame update
