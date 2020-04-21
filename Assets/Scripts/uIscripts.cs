@@ -7,6 +7,8 @@ public class uIscripts : MonoBehaviour
 {
     public string sceneName;
     public GameObject pauseMenu;
+
+    public GameObject gamePrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +33,11 @@ public class uIscripts : MonoBehaviour
     }
     public void LoadingScenes(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        //SceneManager.LoadScene(sceneName);
+        Destroy(GameObject.Find("Game"));
+        Instantiate(gamePrefab);
+        pauseMenu = GameObject.Find("PauseMenu");
+
     }
     public void SceneQuiting()
     {

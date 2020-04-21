@@ -52,14 +52,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRanged: 1
   playerInstance: {fileID: 0}
-  chaseDistance: 2.5
-  fireDistance: 2.5
+  chaseDistanceX: 2
+  chaseDistanceY: 1.5
+  rangeAttackDistance: 1.2
+  meleeAttackDistance: 0.5
+  doesDamage: 1
   fireBallPrefab: {fileID: 6250053089887603524, guid: 5762a02ec7e96544e89d2b58413caf1f,
     type: 3}
   attackOffset: {x: 0, y: 0, z: 0}
-  fireBallSpeed: 2
+  fireBallSpeed: 1.2
   health: 1
-  reloadTime: 1.2
+  reloadTime: 1.8
 --- !u!212 &9219678424128097105
 SpriteRenderer:
   m_ObjectHideFlags: 0

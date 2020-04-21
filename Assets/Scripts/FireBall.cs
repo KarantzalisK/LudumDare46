@@ -29,6 +29,8 @@ public class FireBall : MonoBehaviour
         else if (collision.gameObject.tag.Equals("player"))
         {
             Destroy(this.gameObject);
+            GameObject.FindGameObjectWithTag("player").GetComponent<PlayerMovement>().receiveDamage(1);
+
 
         }
         else {

@@ -31,6 +31,14 @@ public class Enemy : MonoBehaviour
 
     bool reloading = false;
 
+
+    private void Awake()
+    {
+        playerInstance = GameObject.FindGameObjectWithTag("player");
+        gameObject.GetComponent<Pathfinding.AIDestinationSetter>().target = playerInstance.transform;
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -77,9 +85,9 @@ public class Enemy : MonoBehaviour
             }
         }
         else {
-            if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= rangeAttackDistance && !reloading)
+            if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= meleeAttackDistance && !reloading)
             {
-                
+                StartCoroutine("meleeAttackCountdown");
             }
         }
 
