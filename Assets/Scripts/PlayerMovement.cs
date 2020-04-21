@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject positionSetObj;
 	public float arrowForce = 3f;
     public Text txtInformative;
+    public GameObject deathPanel;
 
 	Vector3 arrowRotation;
 
@@ -39,9 +40,12 @@ public class PlayerMovement : MonoBehaviour
 
 		gameObject.GetComponent<SpriteRenderer>().enabled = false;
 		gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        Time.timeScale = 0.0f;
+       
 		//Draw A Panel Here
 
 	}
+
 
 
 	// Start is called before the first frame update
