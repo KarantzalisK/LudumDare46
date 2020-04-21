@@ -33,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
 		healthPoints -= amount;
 		if (healthPoints <= 0){
 			playerDie();
+            deathPanel.SetActive(true);
 		}
 	}
 
@@ -41,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
 		gameObject.GetComponent<SpriteRenderer>().enabled = false;
 		gameObject.GetComponent<BoxCollider2D>().enabled = false;
         Time.timeScale = 0.0f;
+
        
 		//Draw A Panel Here
 

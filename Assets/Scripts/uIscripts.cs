@@ -31,6 +31,7 @@ public class uIscripts : MonoBehaviour
     }
     public void LoadingScenes(string sceneName)
     {
+        SceneManager.UnloadScene(sceneName);
         SceneManager.LoadScene(sceneName);
     }
     public void SceneQuiting()
