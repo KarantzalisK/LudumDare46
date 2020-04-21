@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
 
-        if (Input.GetButtonDown("Fire1") && !carryFire && !reloading)
+        if (Input.GetKeyDown(KeyCode.Space) && !carryFire && !reloading)
 		{
 			StartCoroutine("shootCountdown");
 		}
