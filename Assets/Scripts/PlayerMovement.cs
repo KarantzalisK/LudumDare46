@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 2f, timer =0f;
     public GameObject positionSetObj;
 	public float arrowForce = 3f;
-    public Text txtInformative;
     public GameObject deathPanel;
 
 	Vector3 arrowRotation;
@@ -33,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 		healthPoints -= amount;
 		if (healthPoints <= 0){
 			playerDie();
+            deathPanel.SetActive(true);
 		}
 	}
 
@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
 		gameObject.GetComponent<SpriteRenderer>().enabled = false;
 		gameObject.GetComponent<BoxCollider2D>().enabled = false;
         Time.timeScale = 0.0f;
+
        
 		//Draw A Panel Here
 
