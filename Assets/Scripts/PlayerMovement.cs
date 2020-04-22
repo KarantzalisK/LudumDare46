@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject positionSetObj;
 	public float arrowForce = 3f;
     public GameObject deathPanel;
+    public GameObject boss,victoryPanel;
 
 	Vector3 arrowRotation;
 
@@ -62,7 +63,11 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   if (!boss.activeSelf) {
+            victoryPanel.SetActive(true);
+            
+        }
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 

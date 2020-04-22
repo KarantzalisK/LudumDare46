@@ -112,7 +112,8 @@ public class Enemy : MonoBehaviour
 
 
     void Die() {
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
+        gameObject.SetActive(false);
         
     }
 
