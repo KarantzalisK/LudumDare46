@@ -6,13 +6,17 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour
 {
 	public GameObject torch;
-    public float speed = 2f, timer =0f;
+    public float speed = 2f ;
     public GameObject positionSetObj;
-	public float arrowForce = 3f;
+	public float arrowForce = 3f ;
     public GameObject deathPanel;
     public GameObject boss,victoryPanel;
+    public Image boltReloadin;
+    public Image healthStateimgHolder;
+    public Sprite fullHeart, brokenHeart, almostDeadHeart;
+    
 
-	Vector3 arrowRotation;
+    Vector3 arrowRotation;
 
 	public Camera cam;
 
@@ -33,7 +37,10 @@ public class PlayerMovement : MonoBehaviour
 		healthPoints -= amount;
 		if (healthPoints <= 0){
 			playerDie();
+            
 		}
+        StartCoroutine("DamageFlash");
+            
 	}
 
 	public void playerDie() {
@@ -42,13 +49,17 @@ public class PlayerMovement : MonoBehaviour
 		//gameObject.GetComponent<BoxCollider2D>().enabled = false;
         deathPanel.SetActive(true);
         gameObject.GetComponent<PlayerMovement>().enabled=false;
+        healthStateimgHolder.enabled = false;
+        boltReloadin.enabled = false;
+        
 
-       
-		//Draw A Panel Here
 
-	}
 
-	public void Awake()
+        //Draw A Panel Here
+
+    }
+
+    public void Awake()
 	{
 		rb = GetComponent<Rigidbody2D>();
 
@@ -63,9 +74,24 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   if (!boss.activeSelf) {
+    {
+        
+        if (!boss.activeSelf) {
             victoryPanel.SetActive(true);
             
+        }
+        if (healthPoints >= 3)
+        {
+            healthStateimgHolder.GetComponent<Image>().sprite = fullHeart;
+        
+        }
+         if (healthPoints <2 )
+        {
+            healthStateimgHolder.GetComponent<Image>().sprite = brokenHeart;
+        }
+        if(healthPoints<1)
+        {
+            healthStateimgHolder.GetComponent<Image>().sprite = almostDeadHeart;
         }
 
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -211,10 +237,23 @@ public class PlayerMovement : MonoBehaviour
 	IEnumerator shootCountdown()
 	{
 		shoot();
-		reloading = true;
+        reloading = true;
+        boltReloadin.enabled = false;
 		yield return new WaitForSeconds(reloadTime);
 		reloading = false;
+        boltReloadin.enabled = true;
 
-	}
+
+
+    }
+    IEnumerator DamageFlash()
+    {
+        Color cl = gameObject.GetComponent<SpriteRenderer>().color;
+        gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+
+        yield return new WaitForSeconds(0.3f);
+        gameObject.GetComponent<SpriteRenderer>().color = cl;
+
+    }
 
 }
