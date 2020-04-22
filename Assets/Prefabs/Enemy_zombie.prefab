@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2889858356054035301}
   - component: {fileID: 2889858356054035300}
   - component: {fileID: 2889858356054035307}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Enemy_zombie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 223290272375c2b4bb69975e1aa3ce6b, type: 3}
   m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_FlipX: 0
@@ -103,8 +103,11 @@ MonoBehaviour:
   isRanged: 0
   playerInstance: {fileID: 4734284618692455394, guid: f7bc01a0cd0d32d49bed5e28a453a8a1,
     type: 3}
-  chaseDistance: 1.5
-  fireDistance: 0.5
+  chaseDistanceX: 1
+  chaseDistanceY: 1
+  rangeAttackDistance: 2.5
+  meleeAttackDistance: 0.5
+  doesDamage: 1
   fireBallPrefab: {fileID: 0}
   attackOffset: {x: 0, y: 0, z: 0}
   fireBallSpeed: 2

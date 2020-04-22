@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4734284618692455393}
   - component: {fileID: 4734284618692455392}
   - component: {fileID: 4734284618692455395}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: player
   m_TagString: player
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 83c6a59d012d66249976c762dd553416, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   timer: 0
   positionSetObj: {fileID: 4734284619454136804}
   arrowForce: 12
-  txtInformative: {fileID: 0}
+  deathPanel: {fileID: 0}
   cam: {fileID: 0}
   arrowPrefab: {fileID: 6250053089887603524, guid: e50754d9b227af744bc495646a3d0d9d,
     type: 3}
@@ -212,7 +212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4734284619454136802}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4734284619913937060}
   - component: {fileID: 4734284619913937061}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: crossyBo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

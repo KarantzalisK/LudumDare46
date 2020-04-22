@@ -69,7 +69,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -150,7 +150,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -274,7 +274,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -355,7 +355,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -436,7 +436,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -517,7 +517,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -598,7 +598,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -679,7 +679,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -760,7 +760,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -841,7 +841,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -922,7 +922,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -1003,7 +1003,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
@@ -1084,7 +1084,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2070ea61fcf19f94693efff0adb7542a, type: 3}
   m_Color: {r: 0.5471698, g: 0.5136169, b: 0.5136169, a: 1}
   m_FlipX: 0
