@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         
         if (!boss.activeSelf) {
             victoryPanel.SetActive(true);
-            
+            gameObject.SetActive(false);            
         }
         if (healthPoints <= fullHP)
         {
