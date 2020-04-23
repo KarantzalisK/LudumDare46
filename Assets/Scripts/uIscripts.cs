@@ -23,12 +23,12 @@ public class uIscripts : MonoBehaviour
             pauseMenu.SetActive(true);
 
         }
-        if (pauseMenu.activeSelf & controllPanelBeforeStart.activeSelf)
+        if (pauseMenu.activeSelf )
         {
             Time.timeScale = 0;
 
         }
-        else if (pauseMenu.activeSelf==false &&controllPanelBeforeStart.activeSelf==false) {
+        else if (pauseMenu.activeSelf==false) {
             Time.timeScale = 1;
 
         }

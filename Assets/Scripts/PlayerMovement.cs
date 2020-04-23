@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     public Image boltReloadin;
     public Image healthStateimgHolder;
     public Sprite fullHeart, brokenHeart, almostDeadHeart;
+    public GameObject torchObject;
+    private SpriteRenderer TorchOBJSB;
     
 
     Vector3 arrowRotation;
@@ -70,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
 	void Start()
     {
         fullHP = healthPoints;
+        TorchOBJSB = torchObject.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -78,7 +81,8 @@ public class PlayerMovement : MonoBehaviour
         
         if (!boss.activeSelf) {
             victoryPanel.SetActive(true);
-            gameObject.SetActive(false);            
+            gameObject.SetActive(false);
+            
         }
         if (healthPoints <= fullHP)
         {
@@ -103,7 +107,7 @@ public class PlayerMovement : MonoBehaviour
 			StartCoroutine("shootCountdown");
 		}
 
-		if (readyToCarryFire && Input.GetKeyDown(KeyCode.Space)) {
+		if (readyToCarryFire && Input.GetKeyDown(KeyCode.E)) {
 			Debug.Log("Pressed");
 			carryFire = !carryFire;
 		}
@@ -112,6 +116,10 @@ public class PlayerMovement : MonoBehaviour
             torch.GetComponent<Transform>().position = positionSetObj.GetComponent<Transform>().position;
 
 
+        }
+        if (!carryFire)
+        {
+            TorchOBJSB.enabled = true;
         }
 
 
@@ -129,36 +137,68 @@ public class PlayerMovement : MonoBehaviour
 		if (movement.y > 0.01f && movement.x == 0f)
 		{
 			arrowRotation = new Vector3(0f, 0f, 0f);
-		}
+            if (carryFire)
+            {
+                TorchOBJSB.enabled = false;
+            }
+        }
 		else if (movement.y > 0.01f && movement.x > 0.01f) {
 			arrowRotation = new Vector3(0f, 0f, -45f);
-		}
-		else if (movement.y == 0f && movement.x > 0.01f)
+            if (carryFire)
+            {
+                TorchOBJSB.enabled = false;
+            }
+        }
+        else if (movement.y == 0f && movement.x > 0.01f)
 		{
 			arrowRotation = new Vector3(0f, 0f, -90f);
-		}
-		else if (movement.y < -0.01f && movement.x > 0.01f)
+            if (carryFire)
+            {
+                TorchOBJSB.enabled = true;
+            }
+        }
+        else if (movement.y < -0.01f && movement.x > 0.01f)
 		{
 			arrowRotation = new Vector3(0f, 0f, -135f);
-		}
-		else if (movement.y < -0.01f && movement.x == 0f)
+            if (carryFire)
+            {
+                TorchOBJSB.enabled = true;
+            }
+        }
+        else if (movement.y < -0.01f && movement.x == 0f)
 		{
 			arrowRotation = new Vector3(0f, 0f, -180f);
-		}
-		else if (movement.y < -0.01f && movement.x < -0.01f)
+            if (carryFire)
+            {
+                TorchOBJSB.enabled = true;
+            }
+        }
+        else if (movement.y < -0.01f && movement.x < -0.01f)
 		{
 			arrowRotation = new Vector3(0f, 0f, -225f);
-		}
-		else if (movement.y == 0f && movement.x < -0.01f)
+            if (carryFire)
+            {
+                TorchOBJSB.enabled = true;
+            }
+        }
+        else if (movement.y == 0f && movement.x < -0.01f)
 		{
 			arrowRotation = new Vector3(0f, 0f, -270f);
-		}
-		else if (movement.y > 0.01f && movement.x < -0.01f)
+            if (carryFire)
+            {
+                TorchOBJSB.enabled = false;
+            }
+        }
+        else if (movement.y > 0.01f && movement.x < -0.01f)
 		{
 			arrowRotation = new Vector3(0f, 0f, -325f);
-		}
+            if (carryFire)
+            {
+                TorchOBJSB.enabled = false;
+            }
+        }
 
-	}
+    }
 
 	void shoot() {
 
