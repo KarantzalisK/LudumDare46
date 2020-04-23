@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
 	bool reloading = false;
 	public float reloadTime = 0.25f;
 
-	public int healthPoints = 3;
+    public int healthPoints = 3, fullHP = 0;
 
 
 	public void receiveDamage(int amount) {
@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-
+        fullHP = healthPoints;
     }
 
     // Update is called once per frame
@@ -80,16 +80,16 @@ public class PlayerMovement : MonoBehaviour
             victoryPanel.SetActive(true);
             
         }
-        if (healthPoints >= 3)
+        if (healthPoints <= fullHP)
         {
             healthStateimgHolder.GetComponent<Image>().sprite = fullHeart;
         
         }
-         if (healthPoints <2 )
+         if (healthPoints < fullHP/ 2)
         {
             healthStateimgHolder.GetComponent<Image>().sprite = brokenHeart;
         }
-        if(healthPoints<1)
+        if(healthPoints< (fullHP/ 3))
         {
             healthStateimgHolder.GetComponent<Image>().sprite = almostDeadHeart;
         }
@@ -198,6 +198,7 @@ public class PlayerMovement : MonoBehaviour
 		{
 			Debug.Log("Torch Not Reachable anymore");
 			readyToCarryFire = false;
+            
 		}
 
 	}

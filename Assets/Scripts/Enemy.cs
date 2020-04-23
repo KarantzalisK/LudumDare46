@@ -23,8 +23,9 @@ public class Enemy : MonoBehaviour
     public GameObject fireBallPrefab;
 
     public Vector3 attackOffset;
+    //public Vector2 playerEnemyDistance,setMeleeDistance;
     public float fireBallSpeed = 2f;
-
+    //private float enemyPlayerDistanceX, enemyPlayerDistanceY;
 
     public int health = 3;
     public float reloadTime = 1.2f;
@@ -49,7 +50,11 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (health == 0) Die();
+        //playerEnemyDistance = (playerInstance.GetComponent<Rigidbody2D>().position - gameObject.GetComponent<Rigidbody2D>().position);
+        //enemyPlayerDistanceX = Mathf.Abs(playerEnemyDistance.x);
+        //enemyPlayerDistanceY = Mathf.Abs(playerEnemyDistance.y);
+       
+            if (health == 0) Die();
         if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= chaseDistanceX && Mathf.Abs(transform.position.y - playerInstance.transform.position.y) <= chaseDistanceY)
         {
             gameObject.GetComponent<Pathfinding.AIPath>().maxSpeed = 1;
@@ -85,7 +90,7 @@ public class Enemy : MonoBehaviour
             }
         }
         else {
-            if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= meleeAttackDistance && !reloading)
+            if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= meleeAttackDistance && Mathf.Abs(transform.position.y - playerInstance.transform.position.y) <= meleeAttackDistance && !reloading)
             {
                 StartCoroutine("meleeAttackCountdown");
             }
@@ -137,9 +142,8 @@ public class Enemy : MonoBehaviour
 
     IEnumerator meleeAttackCountdown()
     {
-        
-        reloading = true;
-        playerInstance.GetComponent<PlayerMovement>().receiveDamage(doesDamage);
+            reloading = true;
+            playerInstance.GetComponent<PlayerMovement>().receiveDamage(doesDamage);
         yield return new WaitForSeconds(reloadTime);
         reloading = false;
 

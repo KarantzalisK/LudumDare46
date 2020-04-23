@@ -197,7 +197,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2889858356054035301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,7 +250,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7830eae32009aaa4fb89bd4950bbdc55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UP: {fileID: 21300000, guid: e5987ecb5492746428e9121836defe9c, type: 3}
+  DOWN: {fileID: 21300000, guid: 223290272375c2b4bb69975e1aa3ce6b, type: 3}
+  LEFT: {fileID: 21300000, guid: 9698a38054e509b4c9c307f3353e4709, type: 3}
+  RIGHT: {fileID: 21300000, guid: e5657903c9e509741908b41fa3257db1, type: 3}
   currentPosition: {x: 2.5778904, y: -1.2523266}
   previousPosition: {x: 2.5778904, y: -1.2523266}
-  playerPosition: {x: 5.426276, y: -2.1329389}
   flip: 0

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676566242172}
   - component: {fileID: 4650310676566242173}
+  - component: {fileID: 2664589753552374350}
   m_Layer: 0
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -69,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -81,6 +82,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2664589753552374350
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676566242175}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676617901118
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,6 +118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676617901119}
   - component: {fileID: 4650310676617901116}
+  - component: {fileID: 5267509424663295920}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -106,7 +134,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310676617901118}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310678148608008}
@@ -150,7 +178,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -162,6 +190,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5267509424663295920
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676617901118}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676642839790
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,6 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676642839791}
   - component: {fileID: 4650310676642839788}
+  - component: {fileID: 316511113484728771}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -231,7 +286,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -243,6 +298,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &316511113484728771
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676642839790}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676666951361
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,6 +334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676666951366}
   - component: {fileID: 4650310676666951367}
+  - component: {fileID: 2538721756360849504}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -312,7 +394,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -324,6 +406,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2538721756360849504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676666951361}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676678597493
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,6 +475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676697680643}
   - component: {fileID: 4650310676697680640}
+  - component: {fileID: 6686396421775181632}
   m_Layer: 0
   m_Name: wallie1
   m_TagString: Untagged
@@ -382,7 +491,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310676697680642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310677146045486}
@@ -426,7 +535,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -438,6 +547,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6686396421775181632
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676697680642}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676728693831
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676728693828}
   - component: {fileID: 4650310676728693829}
+  - component: {fileID: 7329870180232393112}
   m_Layer: 0
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -507,7 +643,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -519,6 +655,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &7329870180232393112
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676728693831}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676783071750
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676783071751}
   - component: {fileID: 4650310676783071748}
+  - component: {fileID: 6473227059580367324}
   m_Layer: 0
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -588,7 +751,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -600,6 +763,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6473227059580367324
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676783071750}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676783141473
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,6 +799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676783141478}
   - component: {fileID: 4650310676783141479}
+  - component: {fileID: 7773166232336106748}
   m_Layer: 0
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -669,7 +859,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -681,6 +871,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &7773166232336106748
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676783141473}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676795551280
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676795551281}
   - component: {fileID: 4650310676795551287}
+  - component: {fileID: 1270787937747252603}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -750,7 +967,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -762,6 +979,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1270787937747252603
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676795551280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676821097349
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +1015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676821097354}
   - component: {fileID: 4650310676821097352}
+  - component: {fileID: 8837388970520432111}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -831,7 +1075,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -843,6 +1087,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8837388970520432111
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676821097349}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676852881336
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,6 +1123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676852881337}
   - component: {fileID: 4650310676852881342}
+  - component: {fileID: 4912341664046851284}
   m_Layer: 0
   m_Name: wallie1
   m_TagString: Untagged
@@ -868,7 +1139,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310676852881336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310677308364717}
@@ -912,7 +1183,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -924,6 +1195,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4912341664046851284
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676852881336}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676882392140
 GameObject:
   m_ObjectHideFlags: 0
@@ -933,7 +1230,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310676882392141}
-  - component: {fileID: 4650310676882392146}
   m_Layer: 8
   m_Name: Walls1.0 (3)
   m_TagString: Untagged
@@ -958,32 +1254,6 @@ Transform:
   m_Father: {fileID: 4650310678306444938}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310676882392146
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310676882392140}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.037614, y: -1.75382}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.36203194, y: 2.1262536}
-  m_EdgeRadius: 0
 --- !u!1 &4650310676933031264
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,6 +1264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676933031265}
   - component: {fileID: 4650310676933031270}
+  - component: {fileID: 4266336862381448273}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -1053,7 +1324,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1065,6 +1336,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4266336862381448273
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676933031264}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676939992089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,6 +1372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676939992094}
   - component: {fileID: 4650310676939992095}
+  - component: {fileID: 5695112798208073474}
   m_Layer: 0
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -1134,7 +1432,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1146,6 +1444,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5695112798208073474
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676939992089}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310676999996209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310676999996214}
   - component: {fileID: 4650310676999996215}
+  - component: {fileID: 5382024172548689101}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -1171,7 +1496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310676999996209}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.086, y: -1.856, z: 3.8}
+  m_LocalPosition: {x: 5.037, y: -1.856, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310677761399502}
@@ -1215,7 +1540,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1227,6 +1552,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5382024172548689101
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310676999996209}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677071476211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677071476208}
   - component: {fileID: 4650310677071476209}
+  - component: {fileID: 2479166351749681158}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -1252,7 +1604,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310677071476211}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310678306444938}
@@ -1296,7 +1648,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1308,6 +1660,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2479166351749681158
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677071476211}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677108057306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,6 +1696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677108057307}
   - component: {fileID: 4650310677108057304}
+  - component: {fileID: 6495495779342779114}
   m_Layer: 0
   m_Name: wallie1
   m_TagString: Untagged
@@ -1333,7 +1712,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310677108057306}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310677920266945}
@@ -1377,7 +1756,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1389,6 +1768,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6495495779342779114
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677108057306}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677185087690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,7 +1803,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310678306444938}
-  - component: {fileID: 4650310677185087691}
   m_Layer: 8
   m_Name: Walls (2)
   m_TagString: Untagged
@@ -1427,32 +1831,6 @@ Transform:
   m_Father: {fileID: 4650310678524268446}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.420006}
---- !u!61 &4650310677185087691
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310677185087690}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.077427, y: -1.7604775}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.42576408, y: 2.2240238}
-  m_EdgeRadius: 0
 --- !u!1 &4650310677202231359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,6 +1841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677202231356}
   - component: {fileID: 4650310677202231357}
+  - component: {fileID: 7177683425337375456}
   m_Layer: 0
   m_Name: wallie1
   m_TagString: Untagged
@@ -1478,7 +1857,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310677202231359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310676678597498}
@@ -1522,7 +1901,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1534,6 +1913,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &7177683425337375456
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677202231359}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677204428518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,6 +1949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677204428519}
   - component: {fileID: 4650310677204428516}
+  - component: {fileID: 4394167466775193289}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -1559,7 +1965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310677204428518}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.084, y: -1.867, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.867, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310678326136673}
@@ -1603,7 +2009,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1615,6 +2021,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4394167466775193289
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677204428518}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677233496220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,6 +2057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677233496221}
   - component: {fileID: 4650310677233496226}
+  - component: {fileID: 6436183418913870520}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -1684,7 +2117,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1696,6 +2129,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6436183418913870520
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677233496220}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677247947096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,6 +2165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677247947097}
   - component: {fileID: 4650310677247947102}
+  - component: {fileID: 1291458569884871461}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -1765,7 +2225,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1777,6 +2237,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1291458569884871461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677247947096}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677272984488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,6 +2273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677272984489}
   - component: {fileID: 4650310677272984494}
+  - component: {fileID: 4251689561117754521}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -1802,7 +2289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310677272984488}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310678326136673}
@@ -1846,7 +2333,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1858,6 +2345,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4251689561117754521
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677272984488}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677279268141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,7 +2380,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310676880862407}
-  - component: {fileID: 4650310677279268146}
   m_Layer: 8
   m_Name: Walls1.0 (2)
   m_TagString: Untagged
@@ -1892,32 +2404,6 @@ Transform:
   m_Father: {fileID: 4650310678524268446}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310677279268146
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310677279268141}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.085323, y: -1.749016}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.41300106, y: 2.2219148}
-  m_EdgeRadius: 0
 --- !u!1 &4650310677288458448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,6 +2414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677288458449}
   - component: {fileID: 4650310677288458454}
+  - component: {fileID: 3020370822115327909}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -1987,7 +2474,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1999,6 +2486,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3020370822115327909
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677288458448}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677308364716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,7 +2554,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310677376979652}
-  - component: {fileID: 4650310677376979653}
   m_Layer: 8
   m_Name: Walls1.0
   m_TagString: Untagged
@@ -2066,32 +2578,6 @@ Transform:
   m_Father: {fileID: 4650310678531143184}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310677376979653
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310677376979655}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 4.6089706, y: -0.5062313}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.0577927, y: 0.35020924}
-  m_EdgeRadius: 0
 --- !u!1 &4650310677406597033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,6 +2588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677406597038}
   - component: {fileID: 4650310677406597039}
+  - component: {fileID: 6870717930135971583}
   m_Layer: 0
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -2161,7 +2648,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2173,6 +2660,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6870717930135971583
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677406597033}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677407813170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2183,6 +2696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677407813171}
   - component: {fileID: 4650310677407813168}
+  - component: {fileID: 9195223507826124629}
   m_Layer: 0
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -2242,7 +2756,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2254,6 +2768,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &9195223507826124629
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677407813170}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677436687031
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,7 +2803,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310677436687028}
-  - component: {fileID: 4650310677436687029}
   m_Layer: 8
   m_Name: Walls1.0 (1)
   m_TagString: Untagged
@@ -2288,32 +2827,6 @@ Transform:
   m_Father: {fileID: 4650310678531143184}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.11201}
---- !u!61 &4650310677436687029
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310677436687031}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 3.8079538, y: -2.2451804}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.1395423, y: 0.33682108}
-  m_EdgeRadius: 0
 --- !u!1 &4650310677478437110
 GameObject:
   m_ObjectHideFlags: 0
@@ -2324,6 +2837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677478437111}
   - component: {fileID: 4650310677478437108}
+  - component: {fileID: 8448848661955939478}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -2383,7 +2897,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2395,6 +2909,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8448848661955939478
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677478437110}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677537736580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,6 +2945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677537736581}
   - component: {fileID: 4650310677537736586}
+  - component: {fileID: 2591693015879704904}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -2420,7 +2961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310677537736580}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.0370007, y: -1.0909997, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310677761399502}
@@ -2464,7 +3005,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2476,6 +3017,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2591693015879704904
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677537736580}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677580413606
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,6 +3053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677580413607}
   - component: {fileID: 4650310677580413604}
+  - component: {fileID: 8917831768835431392}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -2545,7 +3113,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2557,6 +3125,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8917831768835431392
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677580413606}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677620368484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2567,6 +3161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677620368485}
   - component: {fileID: 4650310677620368490}
+  - component: {fileID: 8026025707852656670}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -2626,7 +3221,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2638,6 +3233,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8026025707852656670
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677620368484}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677640999807
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,6 +3269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677640999804}
   - component: {fileID: 4650310677640999805}
+  - component: {fileID: 3823783628794097494}
   m_Layer: 0
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -2707,7 +3329,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2719,6 +3341,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3823783628794097494
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677640999807}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677642733393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2729,6 +3377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677642733398}
   - component: {fileID: 4650310677642733399}
+  - component: {fileID: 2158124357659957401}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -2788,7 +3437,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2800,6 +3449,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2158124357659957401
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677642733393}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677761399497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,7 +3484,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310677761399502}
-  - component: {fileID: 4650310677761399503}
   m_Layer: 8
   m_Name: Walls1.0 (2)
   m_TagString: Untagged
@@ -2834,32 +3508,6 @@ Transform:
   m_Father: {fileID: 4650310678306444938}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310677761399503
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310677761399497}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.085323, y: -1.749016}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.41300106, y: 2.2219148}
-  m_EdgeRadius: 0
 --- !u!1 &4650310677816867834
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,6 +3518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677816867835}
   - component: {fileID: 4650310677816867832}
+  - component: {fileID: 6801606370569078480}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -2885,7 +3534,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310677816867834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.086, y: -2.5443, z: 3.8}
+  m_LocalPosition: {x: 5.0370007, y: -2.5442998, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.121867724, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310677761399502}
@@ -2929,7 +3578,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2941,6 +3590,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6801606370569078480
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677816867834}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677839678958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,6 +3626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677839678959}
   - component: {fileID: 4650310677839678956}
+  - component: {fileID: 1414253462920446690}
   m_Layer: 0
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -3010,7 +3686,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3022,6 +3698,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1414253462920446690
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677839678958}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677951756886
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,6 +3734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310677951756887}
   - component: {fileID: 4650310677951756884}
+  - component: {fileID: 6816554212661656092}
   m_Layer: 0
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -3091,7 +3794,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3103,6 +3806,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6816554212661656092
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310677951756886}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310677968966302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3146,6 +3875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678028352516}
   - component: {fileID: 4650310678028352517}
+  - component: {fileID: 1665287600549417576}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -3205,7 +3935,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3217,6 +3947,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1665287600549417576
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678028352519}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678041889012
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,6 +3983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678041889013}
   - component: {fileID: 4650310678041889018}
+  - component: {fileID: 7114801937943269628}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -3286,7 +4043,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3298,6 +4055,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &7114801937943269628
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678041889012}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678080061339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,6 +4091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678080061336}
   - component: {fileID: 4650310678080061337}
+  - component: {fileID: 4995600949995896962}
   m_Layer: 0
   m_Name: wallie1
   m_TagString: Untagged
@@ -3323,7 +4107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310678080061339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310677968966303}
@@ -3367,7 +4151,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3379,6 +4163,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4995600949995896962
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678080061339}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678110184219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3389,6 +4199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678110184216}
   - component: {fileID: 4650310678110184217}
+  - component: {fileID: 746095549852978293}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -3448,7 +4259,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3460,6 +4271,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &746095549852978293
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678110184219}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678115659751
 GameObject:
   m_ObjectHideFlags: 0
@@ -3469,7 +4306,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310677146045486}
-  - component: {fileID: 4650310678115659748}
   m_Layer: 8
   m_Name: Walls (3)
   m_TagString: Untagged
@@ -3495,32 +4331,6 @@ Transform:
   m_Father: {fileID: 4650310678524268446}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!61 &4650310678115659748
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310678115659751}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.0857115, y: -2.8253965}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.35419464, y: 4.3366575}
-  m_EdgeRadius: 0
 --- !u!1 &4650310678148608011
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,7 +4340,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310678148608008}
-  - component: {fileID: 4650310678148608009}
   m_Layer: 8
   m_Name: Walls1.0
   m_TagString: Untagged
@@ -3555,32 +4364,6 @@ Transform:
   m_Father: {fileID: 4650310678306444938}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310678148608009
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310678148608011}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.037614, y: -1.75382}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.36203194, y: 2.1262536}
-  m_EdgeRadius: 0
 --- !u!1 &4650310678264111552
 GameObject:
   m_ObjectHideFlags: 0
@@ -3590,7 +4373,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310678264111553}
-  - component: {fileID: 4650310678264111558}
   m_Layer: 8
   m_Name: Walls1.0 (2)
   m_TagString: Untagged
@@ -3615,32 +4397,6 @@ Transform:
   m_Father: {fileID: 4650310678531143184}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310678264111558
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310678264111552}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.085323, y: -1.749016}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.41300106, y: 2.2219148}
-  m_EdgeRadius: 0
 --- !u!1 &4650310678265202743
 GameObject:
   m_ObjectHideFlags: 0
@@ -3651,6 +4407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678265202740}
   - component: {fileID: 4650310678265202746}
+  - component: {fileID: 4396227536462552592}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -3710,7 +4467,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3722,6 +4479,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4396227536462552592
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678265202743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678311783299
 GameObject:
   m_ObjectHideFlags: 0
@@ -3732,6 +4515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678311783296}
   - component: {fileID: 4650310678311783297}
+  - component: {fileID: 1292981542436232229}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -3791,7 +4575,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3803,6 +4587,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1292981542436232229
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678311783299}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678326136672
 GameObject:
   m_ObjectHideFlags: 0
@@ -3812,7 +4622,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310678326136673}
-  - component: {fileID: 4650310678326136678}
   m_Layer: 8
   m_Name: Walls1.0 (1)
   m_TagString: Untagged
@@ -3837,32 +4646,6 @@ Transform:
   m_Father: {fileID: 4650310678306444938}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.11201}
---- !u!61 &4650310678326136678
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310678326136672}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.055684, y: -1.758653}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.37914085, y: 2.117841}
-  m_EdgeRadius: 0
 --- !u!1 &4650310678399233527
 GameObject:
   m_ObjectHideFlags: 0
@@ -3873,6 +4656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678399233524}
   - component: {fileID: 4650310678399233525}
+  - component: {fileID: 3792472405646047527}
   m_Layer: 0
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -3932,7 +4716,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3944,6 +4728,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3792472405646047527
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678399233527}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678401132067
 GameObject:
   m_ObjectHideFlags: 0
@@ -3954,6 +4764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678401132064}
   - component: {fileID: 4650310678401132065}
+  - component: {fileID: 4693224241769645696}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -4013,7 +4824,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4025,6 +4836,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4693224241769645696
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678401132067}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678403615439
 GameObject:
   m_ObjectHideFlags: 0
@@ -4035,6 +4872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678403615436}
   - component: {fileID: 4650310678403615437}
+  - component: {fileID: 5468070250624285594}
   m_Layer: 8
   m_Name: wallie1
   m_TagString: Untagged
@@ -4050,7 +4888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650310678403615439}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.076, y: -1.091, z: 3.8}
+  m_LocalPosition: {x: 5.086, y: -1.091, z: 3.8}
   m_LocalScale: {x: 0.10802999, y: 0.16473064, z: 1}
   m_Children: []
   m_Father: {fileID: 4650310676880862407}
@@ -4094,7 +4932,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4106,6 +4944,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5468070250624285594
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678403615439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678407424901
 GameObject:
   m_ObjectHideFlags: 0
@@ -4116,6 +4980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678407424906}
   - component: {fileID: 4650310678407424907}
+  - component: {fileID: 8460366205706825990}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -4175,7 +5040,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4187,6 +5052,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8460366205706825990
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678407424901}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678428541689
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,6 +5088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678428541694}
   - component: {fileID: 4650310678428541695}
+  - component: {fileID: 3444686915723962579}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -4256,7 +5148,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4268,6 +5160,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3444686915723962579
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678428541689}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678438096071
 GameObject:
   m_ObjectHideFlags: 0
@@ -4278,6 +5196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678438096068}
   - component: {fileID: 4650310678438096069}
+  - component: {fileID: 517826378556059897}
   m_Layer: 8
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -4337,7 +5256,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4349,6 +5268,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &517826378556059897
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678438096071}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678452483202
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,7 +5303,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310677920266945}
-  - component: {fileID: 4650310678452483203}
   m_Layer: 8
   m_Name: Walls (4)
   m_TagString: Untagged
@@ -4384,32 +5328,6 @@ Transform:
   m_Father: {fileID: 4650310678524268446}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310678452483203
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310678452483202}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.0857115, y: -2.8253965}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.35419464, y: 4.3366575}
-  m_EdgeRadius: 0
 --- !u!1 &4650310678489365638
 GameObject:
   m_ObjectHideFlags: 0
@@ -4420,6 +5338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678489365639}
   - component: {fileID: 4650310678489365636}
+  - component: {fileID: 2223077893648065404}
   m_Layer: 0
   m_Name: wallie1
   m_TagString: Untagged
@@ -4479,7 +5398,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4491,6 +5410,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2223077893648065404
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678489365638}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678524268441
 GameObject:
   m_ObjectHideFlags: 0
@@ -4500,8 +5445,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310678524268446}
-  - component: {fileID: 4650310678524268447}
   - component: {fileID: 666102246485240528}
+  - component: {fileID: 3561491062570049582}
   m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
@@ -4532,32 +5477,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310678524268447
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310678524268441}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.0857115, y: -2.8253965}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.45, y: 5.54}
-    newSize: {x: 4.45, y: 5.54}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.35419464, y: 4.3366575}
-  m_EdgeRadius: 0
 --- !u!212 &666102246485240528
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4596,7 +5515,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4608,6 +5527,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3561491062570049582
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678524268441}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678531143187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4617,7 +5562,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650310678531143184}
-  - component: {fileID: 4650310678531143185}
   m_Layer: 8
   m_Name: Walls (1)
   m_TagString: Untagged
@@ -4645,32 +5589,6 @@ Transform:
   m_Father: {fileID: 4650310678524268446}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4650310678531143185
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650310678531143187}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 5.077427, y: -1.7604775}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.42576408, y: 2.2240238}
-  m_EdgeRadius: 0
 --- !u!1 &4650310678543186057
 GameObject:
   m_ObjectHideFlags: 0
@@ -4681,6 +5599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678543186062}
   - component: {fileID: 4650310678543186063}
+  - component: {fileID: 3751025368869862965}
   m_Layer: 0
   m_Name: wallie1 (1)
   m_TagString: Untagged
@@ -4740,7 +5659,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4752,6 +5671,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3751025368869862965
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678543186057}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
 --- !u!1 &4650310678577021670
 GameObject:
   m_ObjectHideFlags: 0
@@ -4762,6 +5707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4650310678577021671}
   - component: {fileID: 4650310678577021668}
+  - component: {fileID: 5088286055464764664}
   m_Layer: 8
   m_Name: wallie1 (2)
   m_TagString: Untagged
@@ -4821,7 +5767,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f9613953d99ea2b4e82fe2f4fa41ffdd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4833,3 +5779,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5088286055464764664
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650310678577021670}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.13082337, y: 0.16897917}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.45, y: 5.54}
+    newSize: {x: 4.45, y: 5.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2987561, y: 4.477844}
+  m_EdgeRadius: 0
