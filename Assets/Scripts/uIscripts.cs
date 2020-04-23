@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class uIscripts : MonoBehaviour
 {
     public string sceneName;
-    public GameObject pauseMenu;
+    public GameObject pauseMenu, controllPanelBeforeStart;
 
     public GameObject gamePrefab;
     // Start is called before the first frame update
@@ -23,13 +23,15 @@ public class uIscripts : MonoBehaviour
             pauseMenu.SetActive(true);
 
         }
-        if (pauseMenu.activeSelf)
+        if (pauseMenu.activeSelf & controllPanelBeforeStart.activeSelf)
         {
             Time.timeScale = 0;
 
         }
-        else Time.timeScale = 1;
+        else if (pauseMenu.activeSelf==false &&controllPanelBeforeStart.activeSelf==false) {
+            Time.timeScale = 1;
 
+        }
     }
     public void LoadingScenes(string sceneName)
     {
