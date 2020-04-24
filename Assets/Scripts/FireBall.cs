@@ -23,8 +23,8 @@ public class FireBall : MonoBehaviour
 
             Physics2D.IgnoreCollision(collision.gameObject.GetComponent<BoxCollider2D>(), gameObject.GetComponent<BoxCollider2D>());
         }
-        else if (collision.gameObject.tag.Equals("arrow")) { 
-        
+        else if (collision.gameObject.tag.Equals("arrow")) {
+            Destroy(this.gameObject);
         }
         else if (collision.gameObject.tag.Equals("player"))
         {

@@ -89,12 +89,12 @@ public class Enemy : MonoBehaviour
                 StartCoroutine("shootFireballCountdown");
             }
         }
-        else {
-            if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= meleeAttackDistance && Mathf.Abs(transform.position.y - playerInstance.transform.position.y) <= meleeAttackDistance && !reloading)
-            {
-                StartCoroutine("meleeAttackCountdown");
-            }
-        }
+        //else {
+        //    if (Mathf.Abs(transform.position.x - playerInstance.transform.position.x) <= meleeAttackDistance && Mathf.Abs(transform.position.y - playerInstance.transform.position.y) <= meleeAttackDistance && !reloading)
+        //    {
+        //        StartCoroutine("meleeAttackCountdown");
+        //    }
+        //}
 
     }
 
@@ -106,14 +106,21 @@ public class Enemy : MonoBehaviour
             StartCoroutine("DamageFlash");
 
         }
+        //if (collision.gameObject.tag.Equals("player"))
+        //{
+         //   StartCoroutine("meleeAttackCountdown");
+       // }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
+   // private void OnCollisionStay2D(Collider2D collision)
+   // {
+       // if (collision.gameObject.tag.Equals("player"))
+       // {
+        //    StartCoroutine("meleeAttackCountdown");
+       // }
 
 
-    }
+   // }
 
 
     void Die() {
