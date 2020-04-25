@@ -111,16 +111,36 @@ public class Enemy : MonoBehaviour
          //   StartCoroutine("meleeAttackCountdown");
        // }
     }
+    private void OnTriggerEnter2D(Collider2D colli)
+    {
+        if (colli.gameObject.tag.Equals("arrow"))
+        {
+            Destroy(colli.gameObject);
+            health--;
+            StartCoroutine("DamageFlash");
 
-   // private void OnCollisionStay2D(Collider2D collision)
-   // {
-       // if (collision.gameObject.tag.Equals("player"))
-       // {
-        //    StartCoroutine("meleeAttackCountdown");
-       // }
+        }
+        if (colli.gameObject.tag.Equals("walls"))
+        {
+            gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+        }
+        else gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+
+        //if (collision.gameObject.tag.Equals("player"))
+        //{
+        //   StartCoroutine("meleeAttackCountdown");
+        // }
+    }
+
+    // private void OnCollisionStay2D(Collider2D collision)
+    // {
+    // if (collision.gameObject.tag.Equals("player"))
+    // {
+    //    StartCoroutine("meleeAttackCountdown");
+    // }
 
 
-   // }
+    // }
 
 
     void Die() {

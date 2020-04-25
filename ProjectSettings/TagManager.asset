@@ -9,6 +9,7 @@ TagManager:
   - arrow
   - enemies
   - fireball
+  - walls
   layers:
   - Default
   - TransparentFX
